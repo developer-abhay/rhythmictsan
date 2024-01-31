@@ -1,10 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const ListItem = ({ title }) => {
   return (
-    <li className="nav-item">
-      <Link to={`${title == "home" ? "/" : "/" + title}`}>{title}</Link>
+    <li>
+      <NavLink
+        className="nav-item"
+        to={`${title == "home" ? "/" : "/" + title}`}
+      >
+        {title}
+      </NavLink>
     </li>
   );
 };

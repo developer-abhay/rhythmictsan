@@ -1,19 +1,17 @@
-import Hero from "../../sections/Home/Hero";
-import Stats from "../../sections/Home/Stats";
-import DemoCourses from "../../sections/Home/DemoCourses";
-import AboutUs from "../../sections/Home/AboutUs";
-import DemoFaculty from "../../sections/Home/DemoFaculty";
-import WhyUs from "../../sections/Home/WhyUs";
-import Testimonials from "../../sections/Home/Testimonials";
-import ContactUs from "../../sections/Home/ContactUs";
+import Hero from "../../sections/Hero/Hero";
+import AboutUs from "../../sections/AboutUs/AboutUs";
+import DemoCourses from "../../sections/DemoCourses";
+import DemoFaculty from "../../sections/DemoFaculty";
+import WhyUs from "../../sections/WhyUs";
+import Testimonials from "../../sections/Testimonials";
+import ContactUs from "../../sections/ContactForm/ContactUs";
 import "./Home.css";
 
 const Home = () => (
   <div>
     <Hero />
-    <Stats />
-    <DemoCourses />
     <AboutUs />
+    <DemoCourses />
     <DemoFaculty />
     <WhyUs />
     <Testimonials />
