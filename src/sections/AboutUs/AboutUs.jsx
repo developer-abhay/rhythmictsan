@@ -1,5 +1,9 @@
 import AboutImage1 from "/assets/images/banner.jpg";
-import AboutImage2 from "/assets/images/banner.jpg";
+
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { PiStudentFill } from "react-icons/pi";
+import { BsCalendarEventFill } from "react-icons/bs";
+import { FaTrophy } from "react-icons/fa";
 
 import "./AboutUs.css";
 
@@ -11,26 +15,29 @@ const AboutUs = () => (
       <div className="about-us-image-container">
         <div className="about-us-image">
           {/* <img className="img1" src={AboutImage1} alt="About-img" /> */}
-          <img className="img2" src={AboutImage2} alt="About-img" />
+          <img src={AboutImage1} alt="About-img" />
         </div>
       </div>
 
       <div className="about-content">
         <div className="about-cards">
           <article className="about-card">
-            {/* <FaAward className="about-icon" /> */}
+            <FaChalkboardTeacher className="about-icon" />
             <h5>10000+</h5>
             <small>Teaching Experience</small>
           </article>
           <article className="about-card">
+            <PiStudentFill className="about-icon" />
             <h5>1200+</h5>
             <small>Happy Students</small>
           </article>
           <article className="about-card">
+            <BsCalendarEventFill className="about-icon" />
             <h5>60+</h5>
             <small>Events Organized</small>
           </article>
           <article className="about-card">
+            <FaTrophy className="about-icon" />
             <h5>35+</h5>
             <small>Awards Won</small>
           </article>
@@ -44,7 +51,7 @@ const AboutUs = () => (
           explicabo culpa modi nostrum laboriosam inventore possimus? Beatae.
         </p>
 
-        <a className="">More</a>
+        <a className="btn btn-primary"> Learn More</a>
       </div>
     </div>
   </section>

@@ -1,4 +1,9 @@
 .demo-faculty-container {
   display: flex;
-  gap: 15px;
+  justify-content: space-evenly;
+  padding-bottom: 0px !important;
+}
+
+#demo-faculty > a {
+  margin-top: 64px;
 }

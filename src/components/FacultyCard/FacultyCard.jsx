@@ -13,10 +13,10 @@ const FacultyCard = () => {
       <h6>Chief Executive</h6>
 
       <div className="faculty-socials">
-        <FaFacebookF />
-        <FaInstagramSquare />
-        <FaYoutube />
-        <FaTwitter />
+        <FaFacebookF className="icon" />
+        <FaInstagramSquare className="icon" />
+        <FaYoutube className="icon" />
+        <FaTwitter className="icon" />
       </div>
     </div>
   );

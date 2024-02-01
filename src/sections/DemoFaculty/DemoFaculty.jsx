@@ -3,7 +3,7 @@ import "./DemoFaculty.css";
 
 const DemoFaculty = () => {
   return (
-    <section className="">
+    <section id="demo-faculty">
       <h5>Meet our Team</h5>
       <h2>Awesome Faculty</h2>
       <div className="container demo-faculty-container">
@@ -11,6 +11,9 @@ const DemoFaculty = () => {
         <FacultyCard />
         <FacultyCard />
       </div>
+      <a href="" className="btn btn-primary">
+        All Members
+      </a>
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import TestimonialCard from "../../components/TestimonialCard/TestimonialCard";
+import "./Testmonials.css";
 
 const Testimonials = () => {
   return (

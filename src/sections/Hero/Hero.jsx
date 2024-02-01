@@ -8,8 +8,12 @@ const Hero = () => {
         <h1>RHYTHMICSTAN</h1>
 
         <div className="hero-btns">
-          <button className="primary-btn"> Contact Us </button>
-          <button className="secondary-btn"> Discover More</button>
+          <a href="#contact-us" className=" btn btn-primary">
+            Contact Us
+          </a>
+          <a href="#about-us" className="btn">
+            Discover More
+          </a>
         </div>
       </div>
     </section>

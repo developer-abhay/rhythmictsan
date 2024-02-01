@@ -79,10 +79,10 @@ nav {
 }
 
 .nav-item:hover {
-  color: #ff589e;
+  color: var(--color-primary);
 }
 .nav-item.active {
-  color: #ff589e;
+  color: var(--color-primary);
 }
 .hamburger-icon {
   display: none;

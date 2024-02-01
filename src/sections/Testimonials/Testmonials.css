@@ -1,0 +1,7 @@
+#testimonials {
+  padding-top: 32px;
+}
+.testimonials-container {
+  display: flex;
+  justify-content: space-evenly;
+}

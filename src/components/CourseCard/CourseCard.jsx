@@ -3,7 +3,9 @@ import "./CourseCard.css";
 const CourseCard = () => {
   return (
     <div className="course-card">
-      <img className="card-img" src={img} alt="" />
+      <div className="course-card-img">
+        <img className="card-img" src={img} alt="" />
+      </div>
       <h5>Guitar Course</h5>
       <h6>Beginner to Advanced</h6>
       {/* <p>
@@ -11,8 +13,8 @@ const CourseCard = () => {
         journey to unleash your inner guitarist
       </p> */}
       <div className="card-btns">
-        <button>Enroll Now</button>
-        <button>Read More</button>
+        <a className="btn btn-primary">Enroll Now</a>
+        <a className="btn">Read More</a>
       </div>
     </div>
   );

@@ -36,3 +36,7 @@
   font-size: 22px;
   color: rgb(74, 74, 74);
 }
+
+.faculty-socials > .icon:hover {
+  color: var(--color-primary);
+}

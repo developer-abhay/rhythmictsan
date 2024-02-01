@@ -7,14 +7,18 @@ const WhyUsCard = () => {
     <div className="why-us-card">
       <img src={WhyUsImg} alt="" />
       <div>
-        <h6>Why Choose Us</h6>
-        <h5>Simple and Easy to Learn</h5>
+        <h5>Why Choose Us ?</h5>
+        <h4>Simple and Easy to Learn</h4>
         <p>
           We offer a wide range of music courses, taught by experienced faculty.
           Whether you're abeginner or an advanced musician, we have the perfect
-          program for you.
+          program for you.We offer a wide range of music courses, taught by
+          experienced faculty. Whether you're abeginner or an advanced musician,
+          we have the perfect program for you.We offer a wide range of music
+          courses, taught by experienced faculty. Whether you're abeginner or an
+          advanced musician, we have the perfect program for you.
         </p>
-        <button>Read More</button>
+        <a className="btn btn-primary">Read More</a>
       </div>
     </div>
   );

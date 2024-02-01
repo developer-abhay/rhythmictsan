@@ -1,19 +1,20 @@
-/* 
----------------------------------------------
-contact
---------------------------------------------- 
-*/
-
 #contact-us {
-  padding: 160px 0px;
+  margin-bottom: 0px;
+}
+
+#contact-us > h2 {
+  margin-bottom: 0;
 }
 
 #contact-us h5 {
-  font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.contact-us-container {
+  display: flex;
+  margin-top: 32px !important;
+  gap: 80px;
 }
 
 .contact-text {
@@ -24,8 +25,8 @@ contact
   line-height: 26px;
 }
 
-.contact-text p {
-  margin-bottom: 28px;
+.contact-text > p {
+  margin-bottom: 16px;
 }
 
 .contact-form input,
@@ -49,4 +50,18 @@ contact
   height: 150px;
   resize: none;
   padding: 20px;
+}
+
+.contact-form > form > button {
+  border-radius: 30px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-us-container {
+    flex-direction: column;
+  }
+  .contact-form {
+    margin-top: 16px;
+    padding: 0px 12px;
+  }
 }
