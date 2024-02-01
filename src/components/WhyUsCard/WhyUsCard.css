@@ -1,0 +1,27 @@
+.why-us-card {
+  display: flex;
+  padding: 0 5%;
+  gap: 10%;
+  margin-top: 72px;
+}
+
+.why-us-card > img {
+  width: 45%;
+}
+
+.why-us-card:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.why-us-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+}
+
+.why-us-card > div > p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}

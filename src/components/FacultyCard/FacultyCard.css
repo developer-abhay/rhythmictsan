@@ -1,0 +1,38 @@
+.faculty-card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 20px;
+  border: 1px solid rgb(203, 203, 203);
+  color: black;
+  padding: 16px;
+}
+
+.faculty-card > img {
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.faculty-card > h5 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+.faculty-card > h6 {
+  font-weight: 500;
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.faculty-socials {
+  margin: 12px;
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+  color: rgb(74, 74, 74);
+}

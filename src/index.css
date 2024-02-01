@@ -51,9 +51,9 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 section {
-  /* margin-top: 8rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,16 +120,28 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 /* ========= Media Queries (Medium Devices) ==========*/
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
   }
 }
 

@@ -1,10 +1,12 @@
-import CourseCard from "../components/CourseCard/CourseCard";
+import CourseCard from "../../components/CourseCard/CourseCard";
+import "./DemoCourses.css";
+
 const DemoCourses = () => {
   return (
     <section className="demo-course">
-      <h6>Our Courses</h6>
-      <h3>Instruments</h3>
-      <div className="course-card-container">
+      <h5>Our Courses</h5>
+      <h2>Instruments</h2>
+      <div className="container course-card-container">
         <CourseCard />
         <CourseCard />
         <CourseCard />

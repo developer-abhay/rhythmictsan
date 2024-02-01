@@ -1,9 +1,9 @@
 import Hero from "../../sections/Hero/Hero";
 import AboutUs from "../../sections/AboutUs/AboutUs";
-import DemoCourses from "../../sections/DemoCourses";
-import DemoFaculty from "../../sections/DemoFaculty";
-import WhyUs from "../../sections/WhyUs";
-import Testimonials from "../../sections/Testimonials";
+import DemoCourses from "../../sections/DemoCourses/DemoCourses";
+import DemoFaculty from "../../sections/DemoFaculty/DemoFaculty";
+import WhyUs from "../../sections/WhyUs/WhyUs";
+import Testimonials from "../../sections/Testimonials/Testimonials";
 import ContactUs from "../../sections/ContactForm/ContactUs";
 import "./Home.css";
 

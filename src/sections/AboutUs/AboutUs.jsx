@@ -6,11 +6,11 @@ import "./AboutUs.css";
 const AboutUs = () => (
   <section id="about-us">
     <h5>Get to Know</h5>
-    <h3>About Us</h3>
+    <h2>About Us</h2>
     <div className="container about-us-container">
       <div className="about-us-image-container">
         <div className="about-us-image">
-          <img className="img1" src={AboutImage1} alt="About-img" />
+          {/* <img className="img1" src={AboutImage1} alt="About-img" /> */}
           <img className="img2" src={AboutImage2} alt="About-img" />
         </div>
       </div>
@@ -35,18 +35,17 @@ const AboutUs = () => (
             <small>Awards Won</small>
           </article>
         </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam
+          culpa, incidunt eaque ea recusandae odit veniam dolorem! Officiis
+          temporibus, molestias, incidunt ea modi facilis natus explicabo
+          provident facere vel rem culpa! Voluptatum magni necessitatibus
+          quaerat doloribus, blanditiis nobis pariatur accusamus, eveniet
+          explicabo culpa modi nostrum laboriosam inventore possimus? Beatae.
+        </p>
+
+        <a className="">More</a>
       </div>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam
-        culpa, incidunt eaque ea recusandae odit veniam dolorem! Officiis
-        temporibus, molestias, incidunt ea modi facilis natus explicabo
-        provident facere vel rem culpa! Voluptatum magni necessitatibus quaerat
-        doloribus, blanditiis nobis pariatur accusamus, eveniet explicabo culpa
-        modi nostrum laboriosam inventore possimus? Beatae.
-      </p>
-
-      <a className="">Let's Talk</a>
     </div>
   </section>
 );

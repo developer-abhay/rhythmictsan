@@ -5,16 +5,23 @@ import ListItem from "../../constants/ListItem";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
+  const showNav = () => {
+    const navList = document.querySelector(".nav-list");
+    navList.classList.toggle("display-flex");
+    console.log(navList.classList);
+  };
+
   return (
-    <header class="header-sticky">
+    <header className="header-sticky">
       <nav>
         <Link className="logo" to="/">
           <img src={Logo} alt="Logo" />
         </Link>
-        <RxHamburgerMenu className="hamburger-icon" />
+
+        <RxHamburgerMenu onClick={showNav} className="hamburger-icon" />
         <ul className="nav-list">
           <ListItem title="home" />
-          <ListItem title="about us" />
+          <ListItem title="about" />
           <ListItem title="courses" />
           <ListItem title="faculty" />
           <ListItem title="contact" />

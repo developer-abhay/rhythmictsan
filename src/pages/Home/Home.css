@@ -18,12 +18,6 @@
   font-weight: 400;
 }
 
-/* Demo Course */
-.course-card-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 /* Media Queries */
 /* Stats */
 @media screen and (max-width: 1080px) {

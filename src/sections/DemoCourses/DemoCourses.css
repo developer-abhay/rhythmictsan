@@ -1,0 +1,4 @@
+.course-card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
