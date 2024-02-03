@@ -1,10 +1,12 @@
-import Banner from "../../components/Banner/Banner";
+// import Banner from "../../components/Banner/Banner";
+import ContactUs from "../../sections/ContactForm/ContactUs";
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div>
-      <Banner />
-      <div className="h-96">This is Contact</div>
+    <div className="contact-page">
+      {/* <Banner /> */}
+      <ContactUs />
     </div>
   );
 };

@@ -3,9 +3,11 @@ import "./WhyUs.css";
 const WhyUs = () => {
   return (
     <section id="why-us">
-      <WhyUsCard />
-      <WhyUsCard />
-      <WhyUsCard />
+      <div className="container">
+        <WhyUsCard />
+        <WhyUsCard className="experiment" />
+        <WhyUsCard />
+      </div>
     </section>
   );
 };

@@ -1,14 +1,16 @@
 import { IoIosArrowForward } from "react-icons/io";
+import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="banner flex h-64 bg-purple-300 items-end px-24 py-12">
-      <div className="flex items-center">
+    <div className="banner">
+      <h4>About Us</h4>
+      <div>
         <p>Home</p>
         <span>
-          <IoIosArrowForward />{" "}
+          <IoIosArrowForward />
         </span>
-        <p>Courses</p>
+        <p>About</p>
       </div>
     </div>
   );

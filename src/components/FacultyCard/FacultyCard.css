@@ -2,21 +2,25 @@
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(255, 255, 255);
   border-radius: 30px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   padding-bottom: 20px;
-  border: 1px solid rgb(203, 203, 203);
+  border: 1px solid rgb(255, 255, 255);
   color: black;
   padding: 16px;
+  transition: var(--transition);
 }
 
 .faculty-card > img {
+  cursor: pointer;
+  border: 5px solid var(--color-bg);
   width: 80%;
   aspect-ratio: 1/1;
   border-radius: 50%;
+  transition: var(--transition);
 }
 
 .faculty-card > h5 {
@@ -35,8 +39,14 @@
   gap: 15px;
   font-size: 22px;
   color: rgb(74, 74, 74);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.faculty-socials > .icon {
+  color: var(--color-bg);
 }
 
 .faculty-socials > .icon:hover {
   color: var(--color-primary);
+  transform: translateY(-2px);
 }

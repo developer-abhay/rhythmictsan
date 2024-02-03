@@ -3,7 +3,7 @@ import "./TestimonialCard.css";
 
 const TestimonialCard = () => {
   return (
-    <div className="testimonial">
+    <div className="testimonial card-hover">
       <RiDoubleQuotesL className="testimonial-icon" />
       <p>
         Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas

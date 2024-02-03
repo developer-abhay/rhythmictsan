@@ -1,0 +1,40 @@
+/* Book a demo class Form */
+
+.book-demo-form {
+  background-color: var(--color-bg-variant);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.book-demo-form > .container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0px;
+}
+
+#book-demo-form {
+  display: flex;
+
+  gap: 20px;
+  align-items: center;
+}
+
+.book-demo-form input {
+  color: #777;
+  font-size: 14px;
+  border: 1px solid #eee;
+  width: 300px;
+  height: 45px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.book-demo-form > form > button {
+  border-radius: 30px !important;
+}

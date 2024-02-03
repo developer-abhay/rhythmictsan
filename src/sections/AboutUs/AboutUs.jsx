@@ -1,4 +1,5 @@
 import AboutImage1 from "/assets/images/banner.jpg";
+import AboutImage2 from "/assets/images/heroCover.avif";
 
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { PiStudentFill } from "react-icons/pi";
@@ -12,31 +13,28 @@ const AboutUs = () => (
     <h5>Get to Know</h5>
     <h2>About Us</h2>
     <div className="container about-us-container">
-      <div className="about-us-image-container">
-        <div className="about-us-image">
-          {/* <img className="img1" src={AboutImage1} alt="About-img" /> */}
-          <img src={AboutImage1} alt="About-img" />
-        </div>
+      <div className="about-us-image">
+        <img src={AboutImage1} alt="About-img" />
       </div>
 
       <div className="about-content">
         <div className="about-cards">
-          <article className="about-card">
+          <article className="about-card card-hover">
             <FaChalkboardTeacher className="about-icon" />
             <h5>10000+</h5>
             <small>Teaching Experience</small>
           </article>
-          <article className="about-card">
+          <article className="about-card card-hover">
             <PiStudentFill className="about-icon" />
             <h5>1200+</h5>
             <small>Happy Students</small>
           </article>
-          <article className="about-card">
+          <article className="about-card card-hover">
             <BsCalendarEventFill className="about-icon" />
             <h5>60+</h5>
             <small>Events Organized</small>
           </article>
-          <article className="about-card">
+          <article className="about-card card-hover">
             <FaTrophy className="about-icon" />
             <h5>35+</h5>
             <small>Awards Won</small>

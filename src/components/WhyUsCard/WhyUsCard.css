@@ -1,6 +1,5 @@
 .why-us-card {
   display: flex;
-  padding: 0 5%;
   gap: 10%;
   margin-top: 72px;
 }
@@ -10,7 +9,7 @@
   border-radius: 32px;
 }
 
-.why-us-card:nth-child(2) {
+.why-us-card:nth-child(2n) {
   flex-direction: row-reverse;
 }
 

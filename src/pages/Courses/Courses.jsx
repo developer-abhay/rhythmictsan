@@ -1,12 +1,25 @@
-import Banner from "../../components/Banner/Banner";
+// import Banner from "../../components/Banner/Banner";
+import CourseCard from "../../components/CourseCard/CourseCard";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import "./Courses.css";
 
-const Courses = () => {
+const Faculty = () => {
   return (
-    <div>
-      <Banner />
-      <div className="h-96">This Is Courses</div>
+    <div className="course-page container">
+      <Sidebar />
+      <div className="course-page-container">
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+      </div>
     </div>
   );
 };
 
-export default Courses;
+export default Faculty;

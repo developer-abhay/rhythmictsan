@@ -11,7 +11,7 @@ const Hero = () => {
           <a href="#contact-us" className=" btn btn-primary">
             Contact Us
           </a>
-          <a href="#about-us" className="btn">
+          <a href="#about-us" className="btn btn-primary">
             Discover More
           </a>
         </div>

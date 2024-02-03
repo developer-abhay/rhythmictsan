@@ -12,7 +12,7 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --container-width-lg: 75%;
+  --container-width-lg: 80%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 
@@ -141,6 +141,14 @@ h5 {
   font-size: 20px;
 }
 
+.card-hover:hover {
+  box-shadow: 0 2px 4px 0 var(--color-primary),
+    0 3px 10px 0 var(--color-primary);
+  transform: translateY(-5px);
+  z-index: 100;
+  transition: var(--transition);
+}
+
 /* ========= Media Queries (Medium Devices) ==========*/
 @media screen and (max-width: 1024px) {
   .container {
@@ -150,10 +158,45 @@ h5 {
 
 /* ========= Media Queries (Small Devices) ==========*/
 @media screen and (max-width: 600px) {
+  section {
+    margin-bottom: 40px;
+  }
   .container {
     width: var(--container-width-sm);
   }
-  section > h2 {
-    margin-top: 2rem;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 0.65rem 0.8rem;
+    font-weight: 500;
+    font-size: 14px;
   }
 }

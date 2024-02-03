@@ -6,6 +6,7 @@ import Faculty from "./pages/Faculty/Faculty";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import BookDemo from "./components/BookDemo/BookDemo";
 const App = () => (
   <Router>
     <main className="flex flex-col justify-center">
@@ -17,7 +18,7 @@ const App = () => (
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
+      <BookDemo />
       <Footer />
     </main>
   </Router>

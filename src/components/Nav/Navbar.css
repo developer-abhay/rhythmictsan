@@ -1,70 +1,43 @@
 header {
   position: fixed;
-  top: 30px;
+  top: 0px;
   left: 0px;
   right: 0px;
-  z-index: 100;
+  z-index: 1000;
   min-height: 80px;
-  transition: all 0.3s ease 0s;
-  /* -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;  */
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  /* overflow: hidden; */
 }
 
 nav {
-  width: 75%;
-  margin: auto;
-  position: relative;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 40px;
+  width: 80%;
   min-height: 80px;
-  background: #fff;
-  overflow: hidden;
-  transition: all 0.3s ease 0s;
-}
-
-.logo {
-  float: left;
-  margin-top: 37px;
-  margin-left: 32px;
-  margin-top: 25px;
-  transition: all 0.3s ease 0s;
-  width: fit-content;
-  /* -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;*/
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo > img {
   width: 200px;
-  transition: all 0.3s ease 0s;
-  /* -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s; */
 }
 
 .nav-list {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
-  margin-right: 36px;
-  z-index: 999;
-  float: right;
-  margin-top: 20px;
-  margin-left: 0px;
-  margin-right: 50px;
-  transition: all 0.3s ease 0s;
+  align-items: center;
+  gap: 5px;
+  /* width: 50%; */
+  /* transition: all 0.3s ease 0s; */
   /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s; */
 }
 
-.nav-list li {
-  padding: 2px 20px;
-  transition: all 0.3s ease 0s;
-}
-
 .nav-item {
+  width: 100%;
+  padding: 2px 20px;
   text-transform: capitalize;
   display: block;
   font-weight: 500;
@@ -84,6 +57,17 @@ nav {
 .nav-item.active {
   color: var(--color-primary);
 }
+
+.nav-list > .btn {
+  margin-left: 20px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.nav-list > .btn:hover {
+  border-color: var(--color-bg);
+}
+
 .hamburger-icon {
   display: none;
   font-size: 24px;
@@ -97,18 +81,25 @@ nav {
 /* Medium Devices */
 @media screen and (max-width: 1024px) {
   nav {
-    width: 80%;
-    display: flex;
+    width: 100%;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin: 24px 10%;
   }
 
   .nav-list {
     display: none;
     width: 100%;
     flex-direction: column;
+    gap: 0;
   }
 
   .nav-list li {
+    width: 100%;
     padding: 0;
     border-top: 1px solid #eee;
     text-align: center;
@@ -121,25 +112,11 @@ nav {
   .nav-item:hover {
     background-color: rgb(238, 238, 238);
   }
+  .nav-list > .btn {
+    display: none;
+  }
   .hamburger-icon {
     display: block;
-  }
-}
-
-/* Small Devices */
-@media (max-width: 720px) {
-  header {
-    padding: 0px 15px;
-    height: 80px;
-    box-shadow: none;
-    text-align: center;
-  }
-
-  .nav-list {
-    transition: all 0s ease 0s;
-    /* -webkit-transition: all 0s ease 0s;
-    -moz-transition: all 0s ease 0s;
-    -o-transition: all 0s ease 0s; */
   }
 }
 
