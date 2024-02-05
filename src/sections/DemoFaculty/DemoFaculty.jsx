@@ -23,6 +23,7 @@ const DemoFaculty = () => {
       <div className="container demo-faculty-container">
         <Swiper
           slidesPerView={3}
+          spaceBetween={40}
           breakpoints={{
             0: {
               slidesPerView: 1,

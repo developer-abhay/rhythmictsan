@@ -39,20 +39,56 @@ const Footer = () => {
             <div className="upper-footer-col2">
               <h4>INFORMATION </h4>
               <ul>
-                <li>About Us</li>
-                <li>More Search</li>
-                <li>Blog</li>
-                <li>Testimonials</li>
-                <li>Events</li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    More Search
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Testimonials
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Events
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="upper-footer-col3">
               <h4>HELPFUL LINKS</h4>
               <ul>
-                <li>Services</li>
-                <li>Supports</li>
-                <li>Terms & Condition</li>
-                <li>Privacy Policy</li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Supports
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Terms & Condition
+                  </a>
+                </li>
+                <li>
+                  <a href="www.rhythmicstan.com" target="_blank">
+                    Privacy Policy
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

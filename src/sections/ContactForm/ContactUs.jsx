@@ -57,7 +57,7 @@ const ContactUs = () => {
               <h6>+91 8750209070</h6>
               <h6>+91 8376018183</h6>
 
-              <a href="tel:8882192787" target="_blank" rel="noreferrer">
+              <a href="tel:8750209070" target="_blank" rel="noreferrer">
                 Give a Call
               </a>
             </article>

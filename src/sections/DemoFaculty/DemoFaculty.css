@@ -1,5 +1,5 @@
 .demo-faculty-container {
-  padding-left: 80px;
+  padding-left: 1.5% !important;
   padding-bottom: 0px !important;
 }
 .demo-faculty-container > .mySwiper {
@@ -8,4 +8,16 @@
 
 #demo-faculty > a {
   margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .demo-faculty-container {
+    padding-left: 1% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .demo-faculty-container {
+    padding-left: 5% !important;
+  }
 }

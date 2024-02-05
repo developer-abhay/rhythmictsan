@@ -21,6 +21,7 @@ const DemoCourses = () => {
       <div className="container course-card-container">
         <Swiper
           slidesPerView={3}
+          spaceBetween={40}
           breakpoints={{
             0: {
               slidesPerView: 1,
