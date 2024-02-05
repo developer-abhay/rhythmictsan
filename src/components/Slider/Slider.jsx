@@ -6,7 +6,7 @@ import "./Slider.css";
 const Slider = () => {
   return (
     <div className="logos-slider">
-      <div class="logos-slide">
+      <div className="logos-slide">
         <img src={Studios09} />
         <img src={Trinity} />
         <img src={RockSchool} />
@@ -14,7 +14,7 @@ const Slider = () => {
         <img src={Trinity} />
         <img src={RockSchool} />
       </div>
-      <div class="logos-slide">
+      <div className="logos-slide">
         <img src={Studios09} />
         <img src={Trinity} />
         <img src={RockSchool} />

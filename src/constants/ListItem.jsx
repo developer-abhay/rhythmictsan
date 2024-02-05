@@ -1,15 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
-const ListItem = ({ title }) => {
+const ListItem = ({ title, url }) => {
   return (
     <li>
-      <NavLink
-        className="nav-item"
-        to={`${title == "home" ? "/" : "/" + title}`}
-      >
+      <a className="nav-item" href={url}>
         {title}
-      </NavLink>
+      </a>
     </li>
   );
 };

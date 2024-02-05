@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { RiWhatsappLine } from "react-icons/ri";
-import { AiOutlineMail } from "react-icons/ai";
+import { MdOutlineLocalPhone } from "react-icons/md";
 
 import "./ContactUs.css";
 const ContactUs = () => {
@@ -50,19 +50,15 @@ const ContactUs = () => {
           <div className="contact-options">
             <article className="contact-option">
               <div>
-                <AiOutlineMail className="contact-option-icon" />
-                <h5>Email</h5>
+                <MdOutlineLocalPhone className="contact-option-icon" />
+                <h5>Phone</h5>
               </div>
-              <h6>
-                rhythmicstan <br />
-                @gmail.com{" "}
-              </h6>
-              <a
-                href="mailto:rhythmicstan@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Send a Mail
+
+              <h6>+91 8750209070</h6>
+              <h6>+91 8376018183</h6>
+
+              <a href="tel:8882192787" target="_blank" rel="noreferrer">
+                Give a Call
               </a>
             </article>
             <article className="contact-option">

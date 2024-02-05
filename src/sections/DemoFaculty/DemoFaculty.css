@@ -1,7 +1,9 @@
 .demo-faculty-container {
-  display: flex;
-  justify-content: space-evenly;
+  padding-left: 80px;
   padding-bottom: 0px !important;
+}
+.demo-faculty-container > .mySwiper {
+  padding: 20px 0px;
 }
 
 #demo-faculty > a {

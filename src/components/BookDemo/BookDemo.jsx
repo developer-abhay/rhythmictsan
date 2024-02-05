@@ -28,7 +28,7 @@ const BookDemo = () => {
     demoClassForm.reset();
   };
   return (
-    <section className="book-demo-form">
+    <section className="book-demo-form" id="book-demo">
       <div className="container">
         <h4>Book a Demo Class Now</h4>
         <form

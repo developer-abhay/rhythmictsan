@@ -1,5 +1,6 @@
 .faculty-card {
   max-width: 300px;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255);
@@ -21,6 +22,18 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
   transition: var(--transition);
+  position: relative;
+}
+.faculty-card::before {
+  content: "";
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  background-color: var(--color-bg);
+  position: absolute;
+  top: 21px;
+  z-index: 2000;
+  opacity: 20%;
 }
 
 .faculty-card > h5 {
@@ -38,15 +51,19 @@
   display: flex;
   gap: 15px;
   font-size: 22px;
-  color: rgb(74, 74, 74);
   transition: var(--transition);
   cursor: pointer;
 }
-.faculty-socials > .icon {
+
+.faculty-socials > a {
+  background-color: white;
+}
+
+.faculty-socials > a > .icon {
   color: var(--color-bg);
 }
 
-.faculty-socials > .icon:hover {
+.faculty-socials > a > .icon:hover {
   color: var(--color-primary);
   transform: translateY(-2px);
 }

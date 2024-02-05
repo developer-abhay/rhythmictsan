@@ -63,6 +63,7 @@
 
 .about-content p {
   margin: 32px 0 42px;
+  text-align: justify;
   color: var(--color-light);
 }
 
@@ -81,16 +82,15 @@
 
   .about-card {
     padding: 16px;
-    /* transition: var(--transition); */
   }
 
   .about-content p {
     margin: 0px;
     margin-bottom: 30px;
+    font-size: 12px;
   }
-
   .about-us-image > img {
-    height: 350px;
+    height: 280px;
   }
 }
 

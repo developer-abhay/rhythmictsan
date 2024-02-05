@@ -1,5 +1,4 @@
-import AboutImage1 from "/assets/images/banner.jpg";
-import AboutImage2 from "/assets/images/heroCover.avif";
+import AboutImage from "/assets/images/about.jpg";
 
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { PiStudentFill } from "react-icons/pi";
@@ -14,7 +13,7 @@ const AboutUs = () => (
     <h2>About Us</h2>
     <div className="container about-us-container">
       <div className="about-us-image">
-        <img src={AboutImage1} alt="About-img" />
+        <img src={AboutImage} alt="About-img" />
       </div>
 
       <div className="about-content">
@@ -22,7 +21,7 @@ const AboutUs = () => (
           <article className="about-card card-hover">
             <FaChalkboardTeacher className="about-icon" />
             <h5>10000+</h5>
-            <small>Teaching Experience</small>
+            <small>Teachering Exp.(Hours)</small>
           </article>
           <article className="about-card card-hover">
             <PiStudentFill className="about-icon" />
@@ -41,15 +40,22 @@ const AboutUs = () => (
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam
-          culpa, incidunt eaque ea recusandae odit veniam dolorem! Officiis
-          temporibus, molestias, incidunt ea modi facilis natus explicabo
-          provident facere vel rem culpa! Voluptatum magni necessitatibus
-          quaerat doloribus, blanditiis nobis pariatur accusamus, eveniet
-          explicabo culpa modi nostrum laboriosam inventore possimus? Beatae.
+          Rhythmicstan was founded in 2015 with the goal of providing
+          high-quality music education to people all around India. The aim is
+          not only to help students develop a lifelong appreciation for music
+          but to provide them with musical knowledge and experience that would
+          truly enable them to achieve their musical aspirations whether
+          professional or recreational. We focus on regular performances and
+          necessary theoretical sessions in addition to regular music classes.
+          We also encourage our students to take International Music Exams such
+          as Rockschool, Trinity College London, and ABRSM, which help them
+          acquire a well-rounded musical education.
         </p>
 
-        <a className="btn btn-primary"> Learn More</a>
+        <a className="btn btn-primary" href="#demo-course">
+          {" "}
+          Learn More
+        </a>
       </div>
     </div>
   </section>

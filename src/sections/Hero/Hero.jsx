@@ -1,11 +1,11 @@
 import "./Hero.css";
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="layer"></div>
       <div className="details">
-        <h3>Music For All</h3>
-        <h1>RHYTHMICSTAN</h1>
+        <h3>RHYTHMICSTAN</h3>
+        <h1>Music For All</h1>
 
         <div className="hero-btns">
           <a href="#contact-us" className=" btn btn-primary">

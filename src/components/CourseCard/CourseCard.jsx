@@ -9,7 +9,9 @@ const CourseCard = ({ name, info, img }) => {
         <h4>{name}</h4>
         <p>{info}</p>
 
-        <a className="btn btn-primary">Enroll Now</a>
+        <a className="btn btn-primary" href="#book-demo">
+          Enroll Now
+        </a>
       </div>
     </div>
   );

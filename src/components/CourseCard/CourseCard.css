@@ -7,8 +7,12 @@
 }
 
 .course-card-img {
-  height: 240px;
+  width: auto;
   overflow: hidden;
+}
+.course-card-img > img {
+  max-height: 240px;
+  min-height: 240px;
 }
 .course-card-content {
   padding: 20px;
@@ -25,4 +29,23 @@
   text-align: center;
   font-size: 14px;
   margin-top: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .course-card-img > img {
+    max-height: 200px;
+    min-height: 200px;
+  }
+  .course-card-content {
+    padding: 10px 20px;
+  }
+
+  .course-card-content > p {
+    font-size: 10px;
+  }
+
+  .course-card-content > a {
+    font-size: 13px;
+    margin-top: 14px;
+  }
 }

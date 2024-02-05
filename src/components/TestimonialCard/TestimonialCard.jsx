@@ -1,21 +1,18 @@
 import { RiDoubleQuotesL } from "react-icons/ri";
 import "./TestimonialCard.css";
 
-const TestimonialCard = () => {
+const TestimonialCard = ({ name, title, feedback, img }) => {
   return (
     <div className="testimonial card-hover">
       <RiDoubleQuotesL className="testimonial-icon" />
-      <p>
-        Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas
-        scelerisque orci. Maecenas a finibus odio.
-      </p>
+      <p>{feedback}</p>
       <div>
         <div className="user-image">
-          <img src="http://placehold.it/60x60" alt="" />
+          <img src={img} alt="" />
         </div>
         <div className="user-info">
-          <h3 className="user-name">Catherine Soft</h3>
-          <span>Managing Director</span>
+          <h3 className="user-name">{name}</h3>
+          <span>{title}</span>
         </div>
       </div>
     </div>

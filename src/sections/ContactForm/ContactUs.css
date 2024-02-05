@@ -118,9 +118,55 @@
 @media screen and (max-width: 1024px) {
   .contact-us-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .contact-form {
     margin-top: 16px;
     padding: 0px 12px;
+  }
+
+  .contact-left {
+    width: 80%;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .contact-text {
+    text-align: left;
+  }
+
+  /* Contact Option */
+  .contact-options {
+    gap: 10px;
+    height: fit-content;
+  }
+
+  .contact-option {
+    padding: 16px;
+  }
+  .contact-option > div {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact-us h5 {
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .contact-left {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-text {
+    text-align: left;
+  }
+  .contact-form {
+    width: 100%;
   }
 }

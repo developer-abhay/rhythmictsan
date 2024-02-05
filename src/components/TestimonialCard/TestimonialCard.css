@@ -15,10 +15,10 @@
   padding: 5px;
   margin-top: 10px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   color: #777;
-  letter-spacing: 0.6px;
-  line-height: 26px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
 }
 
 .testimonial > div {
@@ -50,11 +50,6 @@
   transition: all 0.3s ease 0s;
 }
 
-.user-info:hover {
-  cursor: pointer;
-  margin-left: 30px;
-}
-
 .user-name {
   display: block;
   font-weight: 400;
@@ -68,4 +63,55 @@
   font-size: 15px;
   color: var(--color-primary);
   letter-spacing: 0.25px;
+}
+
+@media screen and (max-width: 600px) {
+  .testimonial {
+    width: 260px;
+    height: 260px;
+    padding: 15px;
+  }
+
+  .testimonial-icon {
+    font-size: 20px;
+  }
+
+  .testimonial > p {
+    margin-top: -10px;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    line-height: 18px;
+  }
+
+  .testimonial > div {
+    margin: 0px;
+    align-items: center;
+  }
+
+  .user-image {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+
+  .user-info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-name {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .user-info span {
+    font-size: 10px;
+  }
 }

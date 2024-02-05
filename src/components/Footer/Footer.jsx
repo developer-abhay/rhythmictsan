@@ -20,53 +20,61 @@ const Footer = () => {
             <div className="about">
               <h5>About Us</h5>
               <p>
-                We want to bring out the musician in everyone. Lorem ipsum hello
-                there
+                We want to bring out the musician in everyone. Music for All.
               </p>
             </div>
             <div className="contact">
               <h5>Contact</h5>
               <div>
                 <MdAddCall />
-                <p>6191961515</p>
+                <p>+91 8750209070</p>
               </div>
               <div>
                 <MdEmail />
-                <p>RaviKumar@gmail.com</p>
+                <p>rhythmicstan@gmail.com</p>
               </div>
             </div>
           </div>
-          <div>
-            <h4>INFORMATION </h4>
-            <ul>
-              <li>About Us</li>
-              <li>More Search</li>
-              <li>Blog</li>
-              <li>Testimonials</li>
-              <li>Events</li>
-            </ul>
+          <div className="links">
+            <div className="upper-footer-col2">
+              <h4>INFORMATION </h4>
+              <ul>
+                <li>About Us</li>
+                <li>More Search</li>
+                <li>Blog</li>
+                <li>Testimonials</li>
+                <li>Events</li>
+              </ul>
+            </div>
+            <div className="upper-footer-col3">
+              <h4>HELPFUL LINKS</h4>
+              <ul>
+                <li>Services</li>
+                <li>Supports</li>
+                <li>Terms & Condition</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h4>HELPFUL LINKS</h4>
-            <ul>
-              <li>Services</li>
-              <li>Supports</li>
-              <li>Terms & Condition</li>
-              <li>Privacy Policy</li>
-            </ul>
-          </div>
-          {/* <div className="upper-footer-col4">
-            <h5>Enter your email</h5>
-            <input type="text" placeholder="Enter Your Email" />
-            <a className="btn btn-primary">Submit</a>
-          </div> */}
         </div>
         <hr />
         <div className="lower-footer">
           <div className="footer-socials">
-            <FaInstagram className="footer-socials-icon" />
-            <FaFacebookF className="footer-socials-icon" />
-            <FaYoutube className="footer-socials-icon" />
+            <a
+              href="https://www.instagram.com/rhythmicstan/?hl=en"
+              target="_blank"
+            >
+              <FaInstagram className="footer-socials-icon" />
+            </a>
+            <a href="https://www.facebook.com/Rhythmicstan/" target="_blank">
+              <FaFacebookF className="footer-socials-icon" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCNvFsYasUwR_Wd-Wy3ZclLw"
+              target="_blank"
+            >
+              <FaYoutube className="footer-socials-icon" />
+            </a>
           </div>
           <p>COPYRIGHT © 2024 Rhythmicstan Music Academy</p>
         </div>

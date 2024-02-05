@@ -5,3 +5,12 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 600px) {
+  .testimonials-container {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+}
