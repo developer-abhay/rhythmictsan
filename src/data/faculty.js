@@ -77,7 +77,7 @@ export const facultyObject = [
     id: 8,
     name: "Raghav",
     title: "Dance Instructor",
-    img: "/assets/images/faculty/angela_western.JPG",
+    img: "/assets/images/faculty/raghav_dance.jpg",
     socials: {
       fb: "",
       insta: "",
