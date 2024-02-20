@@ -24,7 +24,7 @@
   transition: var(--transition);
   position: relative;
 }
-.faculty-card::before {
+/* .faculty-card::before {
   content: "";
   width: 205px;
   height: 205px;
@@ -34,7 +34,7 @@
   top: 21px;
   z-index: 2000;
   opacity: 20%;
-}
+} */
 
 .faculty-card > h5 {
   margin-top: 10px;

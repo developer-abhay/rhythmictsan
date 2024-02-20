@@ -20,12 +20,11 @@ const Navbar = () => {
 
         <RxHamburgerMenu onClick={showNav} className="hamburger-icon" />
         <ul className="nav-list">
-          <ListItem title="home" url="#hero" />
-          <ListItem title="about" url="#about-us" />
-          <ListItem title="courses" url="#demo-course" />
-          <ListItem title="faculty" url="#demo-faculty" />
-          <ListItem title="testimonial" url="#testimonials" />
-          <ListItem title="contact" url="#contact-us" />
+          <ListItem title="home" url="/" />
+          <ListItem title="about" url="/about" />
+          <ListItem title="courses" url="/courses" />
+          <ListItem title="faculty" url="/faculty" />
+          <ListItem title="contact" url="/contact" />
           <a href="#book-demo-form" className="btn btn-primary">
             Book a Demo
           </a>

@@ -1,4 +1,4 @@
-@keyframes change {
+/* @keyframes change {
   0% {
     background-image: url(/assets/images/banner/banner1.jpg);
   }
@@ -29,14 +29,14 @@
   100% {
     background-image: url(/assets/images/banner/banner5.jpg);
   }
-}
+} */
 .hero {
   margin-top: 80px;
   height: calc(100vh - 80px);
-  background-image: url(../../assets/images/about.jpg);
+  /* background-image: url(../../assets/images/about.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,16 @@
   margin-bottom: 0px;
   animation: 17500ms change infinite ease-in-out;
   animation-delay: 3500ms;
+  position: relative;
+  overflow: hidden;
+}
+.hero video {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  z-index: -99;
 }
 
 .layer {

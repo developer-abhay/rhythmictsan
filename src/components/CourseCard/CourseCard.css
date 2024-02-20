@@ -30,6 +30,9 @@
   font-size: 14px;
   margin-top: 14px;
 }
+.course-card a:hover {
+  border-color: var(--color-primary);
+}
 
 @media screen and (max-width: 600px) {
   .course-card-img > img {

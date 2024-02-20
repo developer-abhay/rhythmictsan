@@ -58,7 +58,7 @@ const ContactUs = () => {
               <h6>+91 8376018183</h6>
 
               <a href="tel:8750209070" target="_blank" rel="noreferrer">
-                Give a Call
+                Give Call
               </a>
             </article>
             <article className="contact-option">
@@ -73,7 +73,7 @@ const ContactUs = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Send a Message
+                Send Message
               </a>
             </article>
           </div>

@@ -1,0 +1,22 @@
+.sidebar {
+  background-color: var(--color-bg-variant);
+  padding: 10px 20px;
+  border-radius: 15px;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+
+.sidebar h3 {
+  background-color: var(--color-primary);
+  margin: 20px 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.sidebar h3:hover {
+  background-color: var(--color-white);
+  color: black;
+}

@@ -166,6 +166,9 @@
   .contact-text {
     text-align: left;
   }
+  .contact-option > a {
+    font-size: 14px;
+  }
   .contact-form {
     width: 100%;
   }

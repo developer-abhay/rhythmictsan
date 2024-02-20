@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ListItem = ({ title, url }) => {
   return (
     <li>
-      <a className="nav-item" href={url}>
+      <Link className="nav-item" to={url}>
         {title}
-      </a>
+      </Link>
     </li>
   );
 };
