@@ -1,0 +1,29 @@
+.banner {
+  height: 40vh;
+  width: 100vw;
+  background-image: url(../../../public/assets/images/banner.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-primary);
+  position: relative;
+}
+
+.banner > .layer {
+  background-color: rgb(0, 0, 0);
+  height: 40vh !important;
+  z-index: 0;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.banner .icon {
+  font-size: 24px;
+}

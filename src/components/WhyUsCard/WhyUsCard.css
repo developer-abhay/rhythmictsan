@@ -4,28 +4,38 @@
   margin-top: 72px;
 }
 
-.why-us-card > img {
-  width: 45%;
+.why-us-card .img-container {
+  width: 50%;
+  height: 350px;
   border-radius: 32px;
+  overflow: hidden;
+}
+
+.img-container > img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .why-us-card:nth-child(2n) {
   flex-direction: row-reverse;
 }
 
-.why-us-card > div {
+.why-us-card .details {
+  width: 50%;
+  text-align: left;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
 }
 
-.why-us-card > div > h4 {
+.why-us-card .details > h4 {
   margin-top: -15px;
   margin-bottom: 10px;
+  color: var(--color-primary);
 }
 
-.why-us-card > div > p {
+.why-us-card .details > p {
   margin-bottom: 10px;
   font-size: 14px;
 }

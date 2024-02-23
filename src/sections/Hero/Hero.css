@@ -1,58 +1,18 @@
-/* @keyframes change {
-  0% {
-    background-image: url(/assets/images/banner/banner1.jpg);
-  }
-  20% {
-    background-image: url(/assets/images/banner/banner1.jpg);
-  }
-  21% {
-    background-image: url(/assets/images/banner/banner2.jpg);
-  }
-  40% {
-    background-image: url(/assets/images/banner/banner2.jpg);
-  }
-  41% {
-    background-image: url(/assets/images/banner/banner3.jpg);
-  }
-  60% {
-    background-image: url(/assets/images/banner/banner3.jpg);
-  }
-  61% {
-    background-image: url(/assets/images/banner/banner4.JPG);
-  }
-  80% {
-    background-image: url(/assets/images/banner/banner4.JPG);
-  }
-  81% {
-    background-image: url(/assets/images/banner/banner5.jpg);
-  }
-  100% {
-    background-image: url(/assets/images/banner/banner5.jpg);
-  }
-} */
 .hero {
   margin-top: 80px;
   height: calc(100vh - 80px);
-  /* background-image: url(../../assets/images/about.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
   margin-bottom: 0px;
-  animation: 17500ms change infinite ease-in-out;
-  animation-delay: 3500ms;
   position: relative;
   overflow: hidden;
 }
 .hero video {
   position: absolute;
-  top: -150px;
   left: 0;
+  top: 0;
   width: 100%;
-  /* height: 100%; */
+  object-fit: cover;
+  height: 100%;
   z-index: -99;
 }
 
@@ -65,15 +25,15 @@
   z-index: 1;
 }
 
-.details {
+.hero .details {
   z-index: 2;
   text-align: center;
 }
-.details h1 {
+.hero .details h1 {
   font-weight: 600;
 }
 
-.details h3 {
+.hero .details h3 {
   font-weight: 500;
   margin-bottom: -20px;
 }

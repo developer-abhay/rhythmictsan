@@ -108,3 +108,6 @@
   flex-direction: column;
   gap: 72px;
 }
+.events-container h4 {
+  color: white !important;
+}

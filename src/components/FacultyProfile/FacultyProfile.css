@@ -1,0 +1,96 @@
+.faculty-profile {
+  margin-top: 80px;
+}
+
+/* Banner */
+.bg-img-container {
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.bg-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 120px;
+  top: 100px;
+}
+
+.profile-details {
+  margin-top: 20px !important;
+}
+
+/* Header */
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.socials > div {
+  display: flex;
+  padding-bottom: 5px;
+  gap: 10px;
+  border-bottom: 1px solid var(--color-bg-variant);
+}
+.socials .icon {
+  font-size: 22px;
+}
+
+.socials .icon:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.profile-details > .header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 120px;
+}
+
+.header h6 {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.header-col2 > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-details > .header img {
+  width: 32px;
+}
+
+/* Content */
+.content {
+  padding-top: 50px;
+}
+.content > .why-us-card {
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+.content > .why-us-card h4 {
+  font-size: 24px !important;
+}
+.content > .why-us-card:nth-child(2n) {
+  flex-direction: row;
+}
+.content > .why-us-card .img-container {
+  max-height: 250px;
+}
+
+/* Time Line */

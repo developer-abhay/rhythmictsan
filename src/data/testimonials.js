@@ -9,7 +9,7 @@ export const testimonialObject = [
   },
   {
     id: 2,
-    name: "TK Manoj Ji",
+    name: "Mr. TK Manoj (Ex IAS)",
     title: "India WareHouse Chairman",
     feedback:
       " Enrolling in Rhythmicstan was the best choice I could have made. My guitar teacher's guidance have transformed my music abilities. The academy's professional approach and collaborative environment have reignited my passion for music. It's never too late to chase your dreams!",

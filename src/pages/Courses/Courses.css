@@ -1,12 +1,13 @@
 .course-page {
-  display: flex;
-  gap: 24px;
-  padding-top: 120px;
-  padding-left: 150px;
+  margin-top: 80px;
 }
 
 .course-page-container {
-  height: fit-content;
+  display: flex;
+  padding: 50px;
+}
+.courses-container {
+  margin-left: 50px;
   display: grid;
   gap: 44px 24px;
   grid-template-columns: repeat(3, 1fr);

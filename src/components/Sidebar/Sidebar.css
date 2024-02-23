@@ -2,21 +2,22 @@
   background-color: var(--color-bg-variant);
   padding: 10px 20px;
   border-radius: 15px;
-  position: absolute;
-  top: 120px;
-  left: 40px;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
 }
 
-.sidebar h3 {
+.sidebar h5 {
   background-color: var(--color-primary);
   margin: 20px 5px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px 20px;
   border-radius: 15px;
   text-align: center;
+  min-width: 170px;
 }
 
-.sidebar h3:hover {
+.sidebar h5:hover {
   background-color: var(--color-white);
   color: black;
 }

@@ -1,13 +1,15 @@
 .faculty-page {
+  margin-top: 80px;
+}
+.faculty-page-container {
   display: flex;
-  gap: 24px;
-  padding-top: 120px;
-  padding-left: 200px;
+  padding: 50px;
 }
 
-.faculty-page-container {
+.faculties-container {
+  margin-left: 50px;
   height: fit-content;
   display: grid;
-  gap: 44px 24px;
+  gap: 44px 72px;
   grid-template-columns: repeat(3, 1fr);
 }

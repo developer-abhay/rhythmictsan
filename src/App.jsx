@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import Courses from "./pages/Courses/Courses";
 import Faculty from "./pages/Faculty/Faculty";
 import Contact from "./pages/Contact/Contact";
+import FacultyProfile from "./components/FacultyProfile/FacultyProfile";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 const App = () => (
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/courses" element={<Courses />} />
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/facultyProfile" element={<FacultyProfile />} />
       </Routes>
       <BookDemo />
       <Footer />

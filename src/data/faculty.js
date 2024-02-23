@@ -25,7 +25,7 @@ export const facultyObject = [
   {
     id: 3,
     name: "Praveen Solanki",
-    title: "Piano Instructor",
+    title: "Keyboard Instructor",
     img: "/assets/images/faculty/praveen_piano.jpg",
     socials: {
       fb: "",
@@ -36,7 +36,7 @@ export const facultyObject = [
   {
     id: 4,
     name: "Sahil Salhotra",
-    title: "Indian Vocals",
+    title: "Indian Vocal",
     img: "/assets/images/faculty/sahil_vocals.JPG",
     socials: {
       fb: "",
@@ -47,7 +47,7 @@ export const facultyObject = [
   {
     id: 5,
     name: "Angela",
-    title: "Western Vocals",
+    title: "Western Vocal",
     img: "/assets/images/faculty/angela_western.JPG",
     socials: {
       fb: "",
@@ -78,6 +78,17 @@ export const facultyObject = [
     name: "Raghav",
     title: "Dance Instructor",
     img: "/assets/images/faculty/raghav_dance.jpg",
+    socials: {
+      fb: "",
+      insta: "",
+      yt: "",
+    },
+  },
+  {
+    id: 8,
+    name: "Tushar",
+    title: "Percussion Instructor",
+    img: "../../public/assets/images/faculty/tushar_tabla.jpg",
     socials: {
       fb: "",
       insta: "",
