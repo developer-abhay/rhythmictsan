@@ -2,7 +2,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <section className="hero" id="hero">
-      <video src="../../../public/assets/video.MP4" loop autoPlay muted />
+      <video src="/assets/video.MP4" loop autoPlay muted />
       <div className="layer"></div>
       <div className="details">
         <h3>RHYTHMICSTAN</h3>

@@ -4,16 +4,29 @@ import FacultyCard from "../../components/FacultyCard/FacultyCard";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import "./Faculty.css";
 import Banner from "../../components/Banner/Banner";
+import { useEffect, useState } from "react";
 
 const Faculty = () => {
+  const [filter, setFilter] = useState("all");
+  const [filteredArray, setFilteredArray] = useState(facultyObject);
+
+  useEffect(() => {
+    if (filter == "all") {
+      setFilteredArray(facultyObject);
+    } else {
+      setFilteredArray(
+        facultyObject.filter((faculty) => faculty.title.includes(filter))
+      );
+    }
+  }, [filter]);
   return (
     <div className="faculty-page">
       <Banner title="Faculty" />
 
       <div className="faculty-page-container ">
-        <Sidebar />
+        <Sidebar setFilter={setFilter} />
         <div className="faculties-container">
-          {facultyObject.map(({ id, name, title, img, socials }) => (
+          {filteredArray.map(({ id, name, title, img, socials }) => (
             <FacultyCard
               key={id}
               name={name}

@@ -24,17 +24,6 @@
   transition: var(--transition);
   position: relative;
 }
-/* .faculty-card::before {
-  content: "";
-  width: 205px;
-  height: 205px;
-  border-radius: 50%;
-  background-color: var(--color-bg);
-  position: absolute;
-  top: 21px;
-  z-index: 2000;
-  opacity: 20%;
-} */
 
 .faculty-card > h5 {
   margin-top: 10px;
@@ -55,15 +44,11 @@
   cursor: pointer;
 }
 
-.faculty-socials > a {
-  background-color: white;
-}
-
-.faculty-socials > a > .icon {
+.faculty-socials > .icon {
   color: var(--color-bg);
 }
 
-.faculty-socials > a > .icon:hover {
+.faculty-socials > .icon:hover {
   color: var(--color-primary);
   transform: translateY(-2px);
 }

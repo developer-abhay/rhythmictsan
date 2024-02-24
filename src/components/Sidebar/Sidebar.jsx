@@ -1,15 +1,14 @@
 import "./Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ setFilter }) => {
   return (
     <div className="sidebar">
-      <h5>All</h5>
-      <h5>Guitar</h5>
-      <h5>Piano</h5>
-      <h5>Vocals</h5>
-      <h5>Drums</h5>
-      <h5>Indian Vocals</h5>
-      <h5>Dance</h5>
+      <h5 onClick={() => setFilter("all")}>All</h5>
+      <h5 onClick={() => setFilter("guitar")}>Guitar</h5>
+      <h5 onClick={() => setFilter("keyboard")}>Piano</h5>
+      <h5 onClick={() => setFilter("vocal")}>Vocals</h5>
+      <h5 onClick={() => setFilter("drum")}>Drums</h5>
+      <h5 onClick={() => setFilter("dance")}>Dance</h5>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import Courses from "./pages/Courses/Courses";
 import Faculty from "./pages/Faculty/Faculty";
 import Contact from "./pages/Contact/Contact";
+import { facultyObject } from "./data/faculty";
 import FacultyProfile from "./components/FacultyProfile/FacultyProfile";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
@@ -19,7 +20,22 @@ const App = () => (
         <Route path="/courses" element={<Courses />} />
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/facultyProfile" element={<FacultyProfile />} />
+        {facultyObject.map(({ id, name, title, img, desc }) => {
+          return (
+            <Route
+              path={`/facultyProfile/${name}`}
+              key={id}
+              element={
+                <FacultyProfile
+                  name={name}
+                  title={title}
+                  img={img}
+                  desc={desc}
+                />
+              }
+            />
+          );
+        })}
       </Routes>
       <BookDemo />
       <Footer />

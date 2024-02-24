@@ -23,6 +23,7 @@
   position: absolute;
   left: 120px;
   top: 100px;
+  border: 5px solid var(--color-primary);
 }
 
 .profile-details {
@@ -64,13 +65,6 @@
   letter-spacing: 1px;
 }
 
-.header-col2 > div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
 .profile-details > .header img {
   width: 32px;
 }
@@ -90,7 +84,7 @@
   flex-direction: row;
 }
 .content > .why-us-card .img-container {
-  max-height: 250px;
+  max-height: 300px;
 }
 
 /* Time Line */
