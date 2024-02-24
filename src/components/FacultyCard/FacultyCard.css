@@ -30,6 +30,7 @@
   font-weight: 600;
 }
 .faculty-card > h6 {
+  text-transform: capitalize;
   font-weight: 500;
   margin-top: -5px;
   font-size: 14px;

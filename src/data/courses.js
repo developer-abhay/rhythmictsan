@@ -15,7 +15,7 @@ export const courseObject = [
     id: 3,
     name: "indian vocal",
     info: "Experience the rich heritage of Indian music with our vocal course. Learn classical techniques, explore raga-based melodies, and immerse yourself in the mesmerizing world of Indian vocal tradition under the guidance of seasoned instructors passionate about nurturing your musical talents and cultural appreciation.",
-    img: "/assets/images/courses/indian_vocals.avif",
+    img: "/assets/images/courses/indian_vocals.jpg",
   },
   {
     id: 4,

@@ -1,4 +1,4 @@
-import bgImg from "../../../public/assets/images/about page/about1.avif";
+import bgImg from "/assets/images/about page/about1.avif";
 import WhyUsCard from "../../components/WhyUsCard/WhyUsCard";
 //Icons
 import { AiFillInstagram } from "react-icons/ai";

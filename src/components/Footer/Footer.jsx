@@ -1,5 +1,5 @@
 import "./Footer.css";
-import Logo from "../../../public/assets/images/logo-no-bg.png";
+import Logo from "/assets/images/logo-no-bg.png";
 import { MdAddCall } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 
