@@ -2,9 +2,15 @@ export const facultyObject = [
   {
     id: 1,
     name: "Mr. Ravi Kumar",
-    title: "guitar instructor",
+    title: "CEO & guitar instructor",
     img: "/assets/images/faculty/ravi_guitar.jpeg",
-    bannerImg: "",
+    img2: "/assets/images/faculty/ravi_ceo.jpeg",
+    bioImages: {
+      bioImg1: "/assets/images/faculty/ravi_bio1.jpg",
+      bioImg2: "/assets/images/faculty/ravi_bio2.jpg",
+      bioImg3: "/assets/images/faculty/ravi_bio3.jpg",
+      bioImg4: "/assets/images/faculty/ravi_bio4.jpg",
+    },
     socials: {
       fb: "",
       insta:
@@ -12,7 +18,7 @@ export const facultyObject = [
       yt: "",
     },
     desc: {
-      1: "Mr. Ravi Kumar, the esteemed guitar teacher and founder/CEO of Rhythmicstan, possesses a Grade 8 certification in guitar from Trinity College of London. With a rich and diverse background in music education, and almost 2 decades of experience in music , Mr. Kumar has served as a faculty member at esteemed institutions such as IB International and has imparted his expertise to students at renowned schools including Kamal Model School, Vandana International School, and Summerfield International School. He has also contributed to the edtech sector, having taught with organizations like White Hat Junior and Byjus. He has has dedicated his career to sharing his love of music with students of all ages and skill levels.",
+      1: "Mr. Ravi Kumar, the esteemed guitar teacher and founder & CEO of Rhythmicstan, possesses a Grade 8 certification in guitar from Trinity College of London. With a rich and diverse background in music education, and almost 2 decades of experience in music , Mr. Kumar has served as a faculty member at esteemed institutions such as IB International and has imparted his expertise to students at renowned schools including Kamal Model School, Vandana International School, and Summerfield International School. He has also contributed to the edtech sector, having taught with organizations like White Hat Junior and Byjus. He has dedicated his career to sharing his love of music with students of all ages and skill levels.",
       2: "Mr. Ravi Kumar's expertise spans various facets of music education, with a primary focus on guitar instruction. His comprehensive understanding of music theory, technique, and performance enables him to guide students through a diverse range of musical genres and styles. Additionally, Mr. Kumar's involvement with Trinity College of London and Rockschool London underscores his proficiency in standardized music education methodologies. As a guitar teacher, Mr. Ravi Kumar specializes in various styles of guitar playing, including classical, acoustic, electric, and fingerstyle. His versatile approach allows students to explore different genres and techniques, empowering them to become well-rounded and expressive guitarists.",
       3: "Mr. Ravi Kumar is committed to fostering a nurturing and supportive learning environment where students can thrive creatively and academically. His teaching philosophy emphasizes personalized instruction tailored to each student's unique learning style and goals. With an approach that prioritizes patience, encouragement, and mentorship, Mr. Kumar inspires students to develop not only their musical skills but also their confidence and self-expression. He believes in creating a supportive and encouraging learning environment where students can develop their musical talents to the fullest.",
       4: "Mr. Ravi Kumar is committed to fostering a nurturing and supportive learning environment where students can thrive creatively and academically. His teaching philosophy emphasizes personalized instruction tailored to each student's unique learning style and goals. With an approach that prioritizes patience, encouragement, and mentorship, Mr. Kumar inspires students to develop not only their musical skills but also their confidence and self-expression.",
@@ -23,7 +29,12 @@ export const facultyObject = [
     name: "Mr. Rahul Kumar",
     title: "drums instructor",
     img: "/assets/images/faculty/rahul_drum.jpeg",
-    bannerImg: "",
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "",
+      bioImg3: "",
+      bioImg4: "",
+    },
     socials: {
       fb: "",
       insta: "https://www.instagram.com/rahulmusic_?igsh=MWtleGNyejNvanowbg==",
@@ -41,12 +52,13 @@ export const facultyObject = [
     name: "Mr. Praveen Solanki",
     title: "keyboard instructor",
     img: "/assets/images/faculty/praveen_piano.jpg",
-    bannerImg: "",
-    socials: {
-      fb: "",
-      insta: "",
-      yt: "",
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "",
+      bioImg3: "",
+      bioImg4: "",
     },
+
     desc: {
       1: "Mr. Praveen Kumar brings a wealth of passion and talent to his role as a Keyboard/Piano instructor at Rhythmicstan. With over 5 years of teaching experience and a Grade 5 certification in electronic keyboard (classical and jazz), Mr. Kumar's journey in music began at the age of 10. His dedication to music education is evident in his multifaceted expertise, which extends beyond keyboard and piano to include harmonium and vocal instruction.",
       2: "Mr. Praveen Kumar specializes in keyboard, piano, harmonium, and vocal instruction, offering students a comprehensive foundation in musical expression. His proficiency in classical and jazz keyboard techniques enables students to explore a diverse range of musical genres and styles under his guidance. Additionally, Mr. Kumar's vocal expertise enhances his teaching approach, allowing students to develop a holistic understanding of musical performance.",
@@ -59,12 +71,13 @@ export const facultyObject = [
     name: "Mr. Sahil Salhotra",
     title: "indian vocal instructor",
     img: "/assets/images/faculty/sahil_vocals.JPG",
-    bannerImg: "",
-    socials: {
-      fb: "",
-      insta: "https://www.instagram.com/sahilsalhotra_29?igsh=Nzk2M2x4OThia2Y5",
-      yt: "",
+    bioImages: {
+      bioImg1: "/assets/images/faculty/sahil_bio1.jpg",
+      bioImg2: "/assets/images/faculty/sahil_bio2.jpg",
+      bioImg3: "/assets/images/faculty/sahil_bio3.jpg",
+      bioImg4: "/assets/images/faculty/sahil_bio4.jpg",
     },
+
     desc: {
       1: "Mr. Sahil Salhotra, the esteemed Indian Vocal Instructor at Rhythmicstan, boasts an impressive musical journey that began at the age of 5. With over two decades of experience in music and more than 6 years of teaching experience, Mr. Salhotra's dedication to the art of Indian vocals is unparalleled. He has shared his expertise at esteemed academies such as Jambox and Swarathmika, honing his skills as both a performer and educator. Currently pursuing his Masters in Hindustani Classical Vocals, Mr. Salhotra's passion for music is evident in his lifelong commitment to learning and teaching.",
       2: "Mr. Sahil Salhotra is a versatile vocalist skilled in a wide range of genres, including classical, semi-classical, ghazal, sufi, and Bollywood-western fusion. His comprehensive understanding of Indian vocal techniques allows him to guide students through the intricacies of Hindustani classical music while also exploring contemporary styles. In addition to his vocal prowess, Mr. Salhotra is proficient in playing various instruments, including harmonium, tabla, keyboard, dholak, and guitar, enriching his teaching approach and enhancing students' musical education.",
@@ -77,12 +90,13 @@ export const facultyObject = [
     name: "Miss Angela",
     title: "western vocal instructor",
     img: "/assets/images/faculty/angela_western.JPG",
-    bannerImg: "",
-    socials: {
-      fb: "",
-      insta: "",
-      yt: "",
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "",
+      bioImg3: "",
+      bioImg4: "",
     },
+
     desc: {
       1: "Miss Angela is a talented and dedicated Western Vocal Teacher at Rhythmicstan, renowned for her amazing and soothing voice. With a passion for music that spans decades, Miss Angela brings a wealth of experience and expertise to her role as a vocal instructor. Her journey in music has been marked by a deep love for singing and a commitment to sharing her passion with others.",
       2: "As a Western Vocal Teacher, Miss Angela specializes in helping students develop their vocal skills and unlock their full potential as singers. With her amazing and soothing voice as inspiration, she guides students through vocal exercises, techniques, and repertoire that span a wide range of musical genres, including pop, rock, jazz, and more. Miss Angela's expertise lies not only in teaching vocal technique but also in helping students cultivate expressiveness, emotion, and confidence in their singing.",
@@ -95,15 +109,16 @@ export const facultyObject = [
     name: "Mr. Nikhil",
     title: "guitar instructor",
     img: "/assets/images/faculty/nikhil_guitar.JPG",
-    bannerImg: "",
-    socials: {
-      fb: "",
-      insta: "",
-      yt: "",
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "",
+      bioImg3: "",
+      bioImg4: "",
     },
+
     desc: {
-      1: "MMr. Nikhil is a dedicated and passionate Guitar Instructor at Rhythmicstan, bringing a wealth of knowledge and experience to his role. With a Grade 5 certificate from Trinity College of London in guitar, Mr. Nikhil's expertise is grounded in a solid foundation of music theory and technique. His journey in music has been characterized by a love for the guitar and a commitment to sharing his passion with others.",
-      2: "As a Guitar Instructor, Mr. Nikhil specializes in helping students develop their skills and proficiency on the guitar. His expertise spans various styles and techniques, including classical, acoustic, electric, and more. With his Grade 5 certification from Trinity College of London, Mr. Nikhil provides students with comprehensive instruction that covers music theory, technique, and repertoire, empowering them to become confident and skilled guitarists.",
+      1: "Mr. Nikhil is a dedicated and passionate Guitar Instructor at Rhythmicstan, bringing a wealth of knowledge and experience to his role. With a Grade 5 certificate  in guitar from Rock School London, Mr. Nikhil's expertise is grounded in a solid foundation of music theory and technique. His journey in music has been characterized by a love for the guitar and a commitment to sharing his passion with others.",
+      2: "As a Guitar Instructor, Mr. Nikhil specializes in helping students develop their skills and proficiency on the guitar. His expertise spans various styles and techniques, including classical, acoustic, electric, and more. With his Grade 5 certification from Rock School London, Mr. Nikhil provides students with comprehensive instruction that covers music theory, technique, and repertoire, empowering them to become confident and skilled guitarists.",
       3: "Mr. Nikhil believes in fostering a supportive and encouraging learning environment where students feel motivated to explore and express themselves through music. His teaching philosophy emphasizes the importance of patience, persistence, and practice in mastering the guitar. With personalized instruction and constructive feedback, Mr. Nikhil guides students on their musical journey, helping them develop their skills and confidence as musicians.",
       4: "Throughout his career, Mr. Nikhil has made significant contributions to the music community as both a performer and a teacher. His dedication to excellence in guitar instruction has empowered countless students to achieve their musical goals and aspirations. Whether performing on stage or teaching in the classroom, Mr. Nikhil's passion for music shines through, inspiring others to pursue their own musical dreams and aspirations.",
     },
@@ -113,8 +128,13 @@ export const facultyObject = [
     name: "Mr. Muana",
     title: "drums instructor",
     img: "/assets/images/faculty/muana_drum.jpg",
-    bannerImg: "",
-    socials: { fb: "", insta: "", yt: "" },
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "/assets/images/faculty/muana_bio1.jpg",
+      bioImg3: "",
+      bioImg4: "",
+    },
+
     desc: {
       1: "At just 22 years old, Mr. Muana brings a dynamic energy and wealth of experience to his role as the Drum Instructor at Rhythmicstan. With over 8 years of experience as a drummer and more than 3 years of teaching experience, Mr. Muana's passion for music began at a young age. He holds a Grade 6 certification in drums from Rockschool London, a testament to his dedication and proficiency in percussion. Prior to joining Rhythmicstan, Mr. Muana shared his expertise as a teacher at Canorous Music Academy, further honing his skills in music education.",
       2: "Mr. Muana is a versatile and skilled drummer with expertise in various styles and techniques. His proficiency in drums extends across genres, including rock, jazz, funk, and more. As a certified Grade 6 drummer, Mr. Muana is well-equipped to guide students through the intricacies of drumming, from basic rhythms to advanced fills and improvisation. His dynamic teaching style and passion for percussion inspire students to explore their creativity and unlock their potential on the drums.",
@@ -127,25 +147,32 @@ export const facultyObject = [
     name: "Mr. Raghav",
     title: "dance instructor",
     img: "/assets/images/faculty/raghav_dance.jpg",
-    bannerImg: "",
-    socials: {
-      fb: "",
-      insta: "",
-      yt: "",
+    bioImages: {
+      bioImg1: "/assets/images/faculty/raghav_bio1.jpg",
+      bioImg2: "/assets/images/faculty/raghav_bio2.jpg",
+      bioImg3: "/assets/images/about.jpg",
+      bioImg4: "",
     },
-    desc: {},
+
+    desc: {
+      1: "Mr. Raghav is an experienced and dynamic Dance Instructor at Rhythmicstan, with a passion for dance that spans over 15 years. His journey in dance began at a young age, and over the years, Mr. Raghav has honed his skills and expertise to become a proficient and versatile dancer. With 10 years of teaching experience, Mr. Raghav's dedication to dance education is evident in his commitment to sharing his passion and knowledge with others. He has shared his expertise at renowned institutions such as RM Art Academy, DAV Primary School, and his own, RDX Academy.",
+      2: "As a Dance Instructor, Mr. Raghav specializes in a wide range of dance styles, encompassing both Western and Indian genres. His expertise spans across various styles including modern, salsa, house dance, popping, hip hop, electric boogaloo, contemporary, semi-classical, tango, jazz, semi-jazz, freestyle, and Bollywood. Whether students are interested in mastering traditional Indian dance forms or exploring contemporary Western styles, Mr. Raghav provides personalized instruction tailored to their interests and abilities.",
+      3: "Mr. Raghav believes in creating a supportive and inclusive learning environment where students feel empowered to express themselves through dance. His teaching philosophy emphasizes the importance of creativity, confidence, and self-expression in dance performance. With a focus on technique, musicality, and storytelling, Mr. Raghav guides students on a journey of discovery and exploration, helping them develop their skills and confidence as dancers.",
+      4: "Throughout his career, Mr. Raghav has achieved notable success as both a performer and a teacher. His participation in Dance India Dance Season 5 at just the age of 13 showcased his exceptional talent and dedication to dance. As a teacher, Mr. Raghav's contributions to the dance community have been equally impactful, inspiring countless students to pursue their passion for dance and unlock their potential as performers. Whether choreographing for stage performances or teaching in the classroom, Mr. Raghav's passion for dance shines through, inspiring others to discover the joy of movement and expression.",
+    },
   },
   {
     id: 9,
     name: "Mr.Tushar",
     title: "percussion instructor",
     img: "/assets/images/faculty/tushar_tabla.jpg",
-    bannerImg: "",
-    socials: {
-      fb: "",
-      insta: "",
-      yt: "",
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "",
+      bioImg3: "",
+      bioImg4: "",
     },
+
     desc: {
       1: "Mr. Tushar is a versatile and skilled Percussion Instructor at Rhythmicstan, with a passion for rhythm and a wealth of experience in playing a vast array of instruments. His journey in percussion began at a young age, and over the years, Mr. Tushar has honed his craft to become a proficient and versatile percussionist. With his expertise in instruments such as dholak, tabla, cajon, drums, and more, Mr. Tushar brings a dynamic energy and enthusiasm to his role as a percussion instructor.",
       2: "As a Percussion Instructor, Mr. Tushar specializes in teaching students the art of rhythm and percussion. His proficiency in a wide range of instruments allows him to offer students a comprehensive understanding of percussion techniques and styles. Whether students are interested in traditional Indian rhythms, contemporary beats, or world music percussion, Mr. Tushar provides personalized instruction that meets their individual needs and interests.",

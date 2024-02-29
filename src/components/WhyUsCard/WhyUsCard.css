@@ -1,11 +1,11 @@
 .why-us-card {
   display: flex;
   gap: 10%;
-  margin-top: 72px;
+  margin-bottom: 72px;
 }
 
 .why-us-card .img-container {
-  width: 50%;
+  min-width: 50%;
   height: 350px;
   border-radius: 32px;
   overflow: hidden;
@@ -14,14 +14,17 @@
 .img-container > img {
   height: 100%;
   object-fit: cover;
+  transition: var(--transition);
 }
-
+.img-container > img:hover {
+  scale: 1.1;
+}
 .why-us-card:nth-child(2n) {
   flex-direction: row-reverse;
 }
 
 .why-us-card .details {
-  width: 50%;
+  width: 100%;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -38,4 +41,16 @@
 .why-us-card .details > p {
   margin-bottom: 10px;
   font-size: 14px;
+}
+
+/* Small Devices */
+@media screen and (max-width: 600px) {
+  .why-us-card {
+    flex-direction: column-reverse !important;
+    gap: 20px;
+    position: relative;
+  }
+  .why-us-card .details {
+    align-items: center;
+  }
 }

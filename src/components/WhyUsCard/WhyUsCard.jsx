@@ -1,13 +1,24 @@
 import React from "react";
 import "./WhyUsCard.css";
-import WhyUsImg from "/assets/images/about.jpg";
 
-const WhyUsCard = ({ title1, title2, text, btnText, btnURL, btnClass }) => {
+const WhyUsCard = ({
+  title1,
+  title2,
+  text,
+  btnText,
+  btnURL,
+  btnClass,
+  img,
+}) => {
   return (
     <div className="why-us-card">
-      <div className="img-container">
-        <img src={WhyUsImg} alt="" />
-      </div>
+      {img.length == 0 ? (
+        ""
+      ) : (
+        <div className="img-container">
+          <img src={img} alt="" />
+        </div>
+      )}
       <div className="details">
         <h5>{title1}</h5>
         <h4>{title2}</h4>

@@ -9,6 +9,7 @@ const Sidebar = ({ setFilter }) => {
       <h5 onClick={() => setFilter("vocal")}>Vocals</h5>
       <h5 onClick={() => setFilter("drum")}>Drums</h5>
       <h5 onClick={() => setFilter("dance")}>Dance</h5>
+      <h5 onClick={() => setFilter("percussion")}>Percussion</h5>
     </div>
   );
 };

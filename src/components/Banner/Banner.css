@@ -1,7 +1,7 @@
 .banner {
   height: 40vh;
   width: 100vw;
-  background-image: url(/assets/images/banner.avif);
+  background-image: url(/assets/images/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,4 +26,11 @@
 
 .banner .icon {
   font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner,
+  .banner > .layer {
+    height: 25vh !important;
+  }
 }

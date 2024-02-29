@@ -6,8 +6,15 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const scrollTo = () => {
+    window.scrollTo({
+      top: "0px",
+      behavior: "smooth",
+    });
+  };
   return (
     <footer>
       <div className="container">
@@ -40,29 +47,19 @@ const Footer = () => {
               <h4>INFORMATION </h4>
               <ul>
                 <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    About Us
-                  </a>
+                  <Link to="/privacy" onClick={scrollTo}>
+                    Privacy Policy
+                  </Link>
                 </li>
                 <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    More Search
-                  </a>
+                  <Link to="/terms" onClick={scrollTo}>
+                    Terms & Conditions
+                  </Link>
                 </li>
                 <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Testimonials
-                  </a>
-                </li>
-                <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Events
-                  </a>
+                  <Link to="/support" onClick={scrollTo}>
+                    Supports
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -70,24 +67,14 @@ const Footer = () => {
               <h4>HELPFUL LINKS</h4>
               <ul>
                 <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Services
-                  </a>
+                  <a href="/about">About Us</a>
+                </li>
+                <li></li>
+                <li>
+                  <a href="/about">Events</a>
                 </li>
                 <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Supports
-                  </a>
-                </li>
-                <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Terms & Condition
-                  </a>
-                </li>
-                <li>
-                  <a href="www.rhythmicstan.com" target="_blank">
-                    Privacy Policy
-                  </a>
+                  <a href="/contact">Contact Us</a>
                 </li>
               </ul>
             </div>

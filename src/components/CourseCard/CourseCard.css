@@ -13,6 +13,11 @@
 .course-card-img > img {
   max-height: 240px;
   min-height: 240px;
+  transition: var(--transition);
+}
+.course-card-img > img:hover {
+  scale: 1.1;
+  cursor: pointer;
 }
 .course-card-content {
   padding: 20px;

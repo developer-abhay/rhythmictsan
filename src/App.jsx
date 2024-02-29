@@ -9,6 +9,9 @@ import Contact from "./pages/Contact/Contact";
 import { facultyObject } from "./data/faculty";
 import FacultyProfile from "./components/FacultyProfile/FacultyProfile";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import Terms from "./pages/TermsAndConditions/Terms";
+import Support from "./pages/Support/Support";
 
 const App = () => (
   <Router>
@@ -20,22 +23,30 @@ const App = () => (
         <Route path="/courses" element={<Courses />} />
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/contact" element={<Contact />} />
-        {facultyObject.map(({ id, name, title, img, desc }) => {
-          return (
-            <Route
-              path={`/facultyProfile/${name}`}
-              key={id}
-              element={
-                <FacultyProfile
-                  name={name}
-                  title={title}
-                  img={img}
-                  desc={desc}
-                />
-              }
-            />
-          );
-        })}
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/support" element={<Support />} />
+        {facultyObject.map(
+          ({ id, name, title, img, img2, desc, bioImages, socials }) => {
+            return (
+              <Route
+                path={`/facultyProfile/${name}`}
+                key={id}
+                element={
+                  <FacultyProfile
+                    name={name}
+                    title={title}
+                    img={img}
+                    img2={img2}
+                    desc={desc}
+                    bioImages={bioImages}
+                    socials={socials}
+                  />
+                }
+              />
+            );
+          }
+        )}
       </Routes>
       <BookDemo />
       <Footer />

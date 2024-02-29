@@ -22,3 +22,19 @@
   background-color: var(--color-white);
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    padding: 5px;
+    top: 100px;
+    margin-left: -30px;
+    margin-top: -20px;
+  }
+
+  .sidebar h5 {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    min-width: 110px;
+  }
+}
