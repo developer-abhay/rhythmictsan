@@ -18,8 +18,12 @@ import { RotatingLines } from "react-loader-spinner";
 const App = () => {
   const [loading, setLoading] = useState(true);
 
+  const stopLoading = () => {
+    setLoading(false);
+  };
+
   useEffect(() => {
-    setTimeout(setLoading(false), 1000);
+    setTimeout(stopLoading, 3000);
   }, []);
 
   return (

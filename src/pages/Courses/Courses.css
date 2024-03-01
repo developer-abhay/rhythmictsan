@@ -14,9 +14,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .course-page-container {
+    position: relative;
+    padding: 20px;
+    padding-top: 150px;
+  }
   .courses-container {
-    margin-left: 20px;
-    margin-top: -20px;
+    margin: auto 0;
     gap: 24px;
     grid-template-columns: 1fr;
   }

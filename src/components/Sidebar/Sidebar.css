@@ -25,16 +25,21 @@
 
 @media screen and (max-width: 600px) {
   .sidebar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
     padding: 5px;
-    top: 100px;
-    margin-left: -30px;
-    margin-top: -20px;
+    width: 95vw;
+    top: 10px;
+    left: 2.5vw;
   }
 
   .sidebar h5 {
-    font-size: 14px;
+    width: fit-content;
+    font-size: 13px;
     padding: 5px 10px;
-    margin: 10px 5px;
-    min-width: 110px;
+    margin: 5px;
+    min-width: 65px;
+    border-radius: 10px;
   }
 }

@@ -13,7 +13,7 @@ import whyImg2 from "/assets/images/whyus2.jpg";
 import whyImg3 from "/assets/images/whyus3.jpg";
 
 const Home = () => (
-  <div>
+  <div className="home-page">
     <Hero />
     <Slider />
     <AboutUs />

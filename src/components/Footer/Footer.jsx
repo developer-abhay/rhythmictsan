@@ -67,14 +67,14 @@ const Footer = () => {
               <h4>HELPFUL LINKS</h4>
               <ul>
                 <li>
-                  <a href="/about">About Us</a>
+                  <a href="https://www.rhythmicstan.com/about">About Us</a>
                 </li>
                 <li></li>
                 <li>
-                  <a href="/about">Events</a>
+                  <a href="https://www.rhythmicstan.com/about">Events</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact Us</a>
+                  <a href="https://www.rhythmicstan.com/contact">Contact Us</a>
                 </li>
               </ul>
             </div>

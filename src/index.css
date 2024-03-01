@@ -155,7 +155,7 @@ h5 {
   box-shadow: 0 2px 4px 0 var(--color-primary),
     0 3px 10px 0 var(--color-primary);
   transform: translateY(-5px);
-  z-index: 100;
+  z-index: 50;
   transition: var(--transition);
 }
 

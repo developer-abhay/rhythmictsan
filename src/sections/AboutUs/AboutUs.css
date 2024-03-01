@@ -101,6 +101,8 @@
     position: static;
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 0px;
+    padding-bottom: 10px !important;
   }
   .about-us-image > img {
     transform: translateY(-40px);

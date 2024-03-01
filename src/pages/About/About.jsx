@@ -11,10 +11,10 @@ import img7 from "/assets/images/about page/about7.jpg";
 import img8 from "/assets/images/about page/about8.jpg";
 import img9 from "/assets/images/about page/about9.jpg";
 //Events Photos
-import festamania1 from "../../../public/assets/images/about page/festamania1.jpg";
+import festamania1 from "/assets/images/about page/festamania1.jpg";
 import festive1 from "/assets/images/about page/festival1.jpg";
 import openMic from "/assets/images/about page/openMic.jpg";
-import festamania2 from "/assets/images/about page/festamania2.jpg";
+import festamania2 from "/assets/images/about.jpg";
 
 import Banner from "../../components/Banner/Banner";
 

@@ -3,7 +3,14 @@ const Hero = () => {
   return (
     <section className="hero" id="hero">
       <div className="video-container">
-        <video src="/assets/video.mp4" loop autoPlay muted />
+        <video
+          src="/assets/video.mp4"
+          preload="auto"
+          playsinline
+          loop
+          autoPlay
+          muted
+        />
       </div>
       <div className="layer"></div>
       <div className="details">

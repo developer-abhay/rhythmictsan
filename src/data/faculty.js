@@ -74,7 +74,7 @@ export const facultyObject = [
     bioImages: {
       bioImg1: "/assets/images/faculty/sahil_bio1.jpg",
       bioImg2: "/assets/images/faculty/sahil_bio2.jpg",
-      bioImg3: "/assets/images/faculty/sahil_bio3.jpg",
+      bioImg3: "/assets/images/about.jpg",
       bioImg4: "/assets/images/faculty/sahil_bio4.jpg",
     },
 
