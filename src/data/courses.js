@@ -47,4 +47,10 @@ export const courseObject = [
     info: "Whether you're a beginner or have some experience, our course offers comprehensive instruction in a variety of percussion instruments, including dholak, tabla, cajon, drums, and more. Led by experienced instructors, you'll explore techniques, rhythms, and styles from around the world, honing your skills and unleashing your creativity.",
     img: "/assets/images/courses/percussion.jpg",
   },
+  {
+    id: 9,
+    name: "bass guitar",
+    info: "Immerse yourself in the rhythmic heartbeat of music with our bass guitar course. From crafting solid grooves to navigating intricate bass lines, our expert instructors will guide you through every step, empowering you to become the indispensable foundation of any musical ensemble. Gain proficiency in various playing styles and techniques.",
+    img: "/assets/images/courses/bass_guitar.jpg",
+  },
 ];

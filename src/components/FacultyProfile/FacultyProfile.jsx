@@ -19,7 +19,11 @@ const FacultyProfile = ({
     <div className="faculty-profile ">
       {/* Header */}
       <div className="profile-header container">
-        <div className="profile-pic">
+        <div
+          className={
+            name == "Mr. Ravi Kumar" ? "profile-pic-ravi" : "profile-pic"
+          }
+        >
           <img src={name == "Mr. Ravi Kumar" ? img2 : img} alt="" />
         </div>
 

@@ -4,7 +4,7 @@ export const facultyObject = [
     name: "Mr. Ravi Kumar",
     title: "CEO & guitar instructor",
     img: "/assets/images/faculty/ravi_guitar.jpeg",
-    img2: "/assets/images/faculty/ravi_ceo.jpeg",
+    img2: "/assets/images/faculty/ravi_ceo.jpg",
     bioImages: {
       bioImg1: "/assets/images/faculty/ravi_bio1.jpg",
       bioImg2: "/assets/images/faculty/ravi_bio2.jpg",
@@ -60,10 +60,10 @@ export const facultyObject = [
     },
 
     desc: {
-      1: "Mr. Praveen Kumar brings a wealth of passion and talent to his role as a Keyboard/Piano instructor at Rhythmicstan. With over 5 years of teaching experience and a Grade 5 certification in electronic keyboard (classical and jazz), Mr. Kumar's journey in music began at the age of 10. His dedication to music education is evident in his multifaceted expertise, which extends beyond keyboard and piano to include harmonium and vocal instruction.",
-      2: "Mr. Praveen Kumar specializes in keyboard, piano, harmonium, and vocal instruction, offering students a comprehensive foundation in musical expression. His proficiency in classical and jazz keyboard techniques enables students to explore a diverse range of musical genres and styles under his guidance. Additionally, Mr. Kumar's vocal expertise enhances his teaching approach, allowing students to develop a holistic understanding of musical performance.",
-      3: "Mr. Praveen Kumar is a firm believer in the importance of building strong fundamentals in music education. He emphasizes the significance of mastering basic principles and techniques as the cornerstone for students' musical growth and development. Through patient and structured instruction, Mr. Kumar empowers students to cultivate a solid foundation in music theory, technique, and performance, setting them on the path to musical excellence.",
-      4: "Throughout his academic journey, Mr. Praveen Kumar has garnered numerous accolades and awards for his musical talents. His dedication and commitment to music have been recognized through accolades earned during his school and college years, showcasing his exceptional musical abilities and contributions to the field. As a passionate educator and performer, Mr. Kumar continues to inspire students to pursue their musical aspirations and unlock their full potential.",
+      1: "Mr. Praveen Solanki brings a wealth of passion and talent to his role as a Keyboard/Piano instructor at Rhythmicstan. With over 5 years of teaching experience and a Grade 5 certification in electronic keyboard (classical and jazz), Mr. Kumar's journey in music began at the age of 10. His dedication to music education is evident in his multifaceted expertise, which extends beyond keyboard and piano to include harmonium and vocal instruction.",
+      2: "He specializes in keyboard, piano, harmonium, and vocal instruction, offering students a comprehensive foundation in musical expression. His proficiency in classical and jazz keyboard techniques enables students to explore a diverse range of musical genres and styles under his guidance. Additionally, Mr. Kumar's vocal expertise enhances his teaching approach, allowing students to develop a holistic understanding of musical performance.",
+      3: "He is a firm believer in the importance of building strong fundamentals in music education. He emphasizes the significance of mastering basic principles and techniques as the cornerstone for students' musical growth and development. Through patient and structured instruction, Mr. Kumar empowers students to cultivate a solid foundation in music theory, technique, and performance, setting them on the path to musical excellence.",
+      4: "Throughout his academic journey, he has garnered numerous accolades and awards for his musical talents. His dedication and commitment to music have been recognized through accolades earned during his school and college years, showcasing his exceptional musical abilities and contributions to the field. As a passionate educator and performer, Mr. Kumar continues to inspire students to pursue their musical aspirations and unlock their full potential.",
     },
   },
   {

@@ -11,11 +11,14 @@ import img7 from "/assets/images/about page/about7.jpg";
 import img8 from "/assets/images/about page/about8.jpg";
 import img9 from "/assets/images/about page/about9.jpg";
 //Events Photos
-import festamania1 from "/assets/images/about page/festamania1.jpg";
-import festive1 from "/assets/images/about page/festival1.jpg";
-import openMic from "/assets/images/about page/openMic.jpg";
-import festamania2 from "/assets/images/about.jpg";
-
+import festamania1 from "/assets/images/about page/events_festamania1.png";
+import festive1 from "/assets/images/about page/events_festival1.jpg";
+import openMic from "/assets/images/about page/events_openMic.jpg";
+import festamania2 from "/assets/images/about page/events_festamania2.jpg";
+// Collab Photos
+import rockSchool from "/assets/images/about page/collab_rock.jpg";
+import dseu from "/assets/images/about page/collab_dseu.jpg";
+import aiims from "/assets/images/about page/collab_aiims.jpg";
 import Banner from "../../components/Banner/Banner";
 
 const About = () => {
@@ -98,6 +101,32 @@ const About = () => {
             text="Festimania 2.0 was the grandest event to date at Rhythmicstan, setting the stage on fire with its electrifying energy and unparalleled excitement. With an awe-inspiring audience of over 700 attendees, including students, families, and music enthusiasts, the atmosphere was nothing short of magical. The highlight of the evening was the esteemed presence of Mr. Shaileash Gaikwad, the President of NTNI and ISNR 2022-23, who graced the occasion as our chief guest and Boishali Sinha, a renowned production designer and art director in the Hindi film industry. Boishali's illustrious career includes work on blockbuster films like 'Gabbar is Back'.As the curtains closed on this unforgettable evening, it was clear that Festimania 2.0 had set a new standard for musical events across all music schools, leaving everyone eagerly awaiting the next chapter."
             btnClass="display-none"
             img={festamania2}
+          />
+        </div>
+      </section>
+
+      {/* Collaborations */}
+      <section className="collab">
+        <h5>We have worked with</h5>
+        <h2>Collaborations and Associations</h2>
+        <div className="collab-container container">
+          <WhyUsCard
+            title2="Rock School London"
+            text="At Rhythmicstan, we are proud to be the exclusive official exam center of RSL in South Delhi. We are committed to delivering internationally recognized music education and certifications. Rockschool's innovative approach to music exams aligns perfectly with our mission to provide high-quality music education to our students. As a pioneer in contemporary music education, Rockschool offers graded music exams across various instruments and genres, empowering students to develop their skills and pursue their passion for music with confidence. Our affiliation with Rockschool London ensures that our students receive industry-standard certifications that are globally recognized, opening doors to diverse opportunities in the music industry."
+            btnClass="display-none"
+            img={rockSchool}
+          />
+          <WhyUsCard
+            title2="Aiims Delhi"
+            text="Our collaboration with AIIMS Delhi (All India Institute of Medical Sciences) demonstrates our dedication to promoting the importance of music in healthcare and education. We have conducted workshops in partnership with AIIMS Delhi, focusing on the therapeutic benefits of music and its profound impact on physical and mental well-being. Additionally, we are honored to have served on the judging panel for Pulse, South Asia's largest medical fest organized by AIIMS Delhi. Through these collaborative efforts, we aim to advocate for the integration of music into healthcare practices, promote interdisciplinary collaboration, and raise awareness about the healing power of music."
+            btnClass="display-none"
+            img={aiims}
+          />
+          <WhyUsCard
+            title2="Delhi Skill and Entrepreneurship University"
+            text="Our partnership with DSEU (Delhi Skill and Entrepreneurship University) reflects our commitment to spreading awareness of music and its benefits beyond traditional educational settings. We have conducted workshops in collaboration with DSEU, aimed at raising awareness of the therapeutic benefits of music and its profound impact on physical, emotional, and cognitive well-being. Through these initiatives, we strive to promote the integration of music into educational and healthcare practices, fostering holistic approaches to learning and wellness."
+            btnClass="display-none"
+            img={dseu}
           />
         </div>
       </section>

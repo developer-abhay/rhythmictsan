@@ -97,22 +97,26 @@
   text-align: left;
 }
 
-.events > h2 {
-  margin-bottom: 10px;
+.events > h2,
+.collab > h2 {
+  margin-bottom: 40px;
 }
 
-.events-container {
+.events-container,
+.collab-container {
   display: flex;
   flex-direction: column;
   gap: 72px;
 }
-.events-container h4 {
+
+.events-container h4,
+.collab-container h4 {
   color: white !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .our-mission {
-    padding-top: 400px;
+    padding-top: 420px;
     height: 110vh;
   }
 
@@ -176,5 +180,12 @@
   }
   .events-container {
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .our-mission {
+    padding-top: 450px;
+    height: auto;
   }
 }

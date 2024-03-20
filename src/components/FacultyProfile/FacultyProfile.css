@@ -13,13 +13,22 @@
   height: 250px;
   border-radius: 5px;
   overflow: hidden;
-  border: 5px solid var(--color-primary-variant);
+  border: 2px solid var(--color-primary-variant);
 }
-.profile-pic > img {
+
+.profile-pic-ravi {
+  width: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 2px solid var(--color-primary-variant);
+}
+.profile-pic > img,
+.profile-pic-ravi > img {
   object-fit: cover;
   height: 100%;
 }
-.profile-pic:hover > img {
+.profile-pic:hover > img,
+.profile-pic-ravi:hover > img {
   scale: 1.05;
   transition: var(--transition);
 }
@@ -77,6 +86,9 @@
   .profile-pic {
     min-width: 200px;
     height: 200px;
+  }
+  .profile-pic-ravi {
+    min-width: 200px;
   }
   .header-text {
     padding-left: 15px;
