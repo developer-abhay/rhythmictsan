@@ -12,6 +12,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import Terms from "./pages/TermsAndConditions/Terms";
 import Support from "./pages/Support/Support";
+import { courseObject } from "./data/courses";
+import CourseDetail from "./components/CourseDetail/CourseDetail";
 
 const App = () => {
   return (
@@ -48,6 +50,22 @@ const App = () => {
               );
             }
           )}
+          {courseObject.map(({ id, name, info, img, detail }) => {
+            return (
+              <Route
+                path={`/course/${name}`}
+                key={id}
+                element={
+                  <CourseDetail
+                    name={name}
+                    img={img}
+                    info={info}
+                    detail={detail}
+                  />
+                }
+              />
+            );
+          })}
         </Routes>
         <BookDemo />
         <Footer />

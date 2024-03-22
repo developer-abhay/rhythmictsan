@@ -13,8 +13,17 @@ const Courses = () => {
     if (filter == "all") {
       setFilteredArray(courseObject);
     } else {
+      const newFilters = filter.split(" ");
       setFilteredArray(
-        courseObject.filter((course) => course.name.includes(filter))
+        courseObject.filter((course) =>
+          course.name.includes(
+            newFilters.length == 1
+              ? filter
+              : course.name.includes(newFilters[1])
+              ? newFilters[1]
+              : newFilters[0]
+          )
+        )
       );
     }
   }, [filter]);

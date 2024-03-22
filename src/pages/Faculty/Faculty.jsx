@@ -14,8 +14,13 @@ const Faculty = () => {
     if (filter == "all") {
       setFilteredArray(facultyObject);
     } else {
+      const newFilters = filter.split(" ");
       setFilteredArray(
-        facultyObject.filter((faculty) => faculty.title.includes(filter))
+        facultyObject.filter((faculty) =>
+          faculty.title.includes(
+            newFilters.length == 1 ? filter : newFilters[0]
+          )
+        )
       );
     }
   }, [filter]);
