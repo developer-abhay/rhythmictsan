@@ -1,3 +1,50 @@
 .course-details {
-  margin-top: 80px;
+  margin-top: 80px !important;
+}
+
+.course-details h1 {
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 60px;
+}
+.course-details h3 {
+  margin-top: 30px;
+  color: var(--color-primary);
+}
+
+.course-details p,
+.course-details li {
+  color: rgb(220, 220, 220);
+}
+
+.course-details h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.course-details ul > li {
+  list-style: bullets;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+.overview {
+  display: flex;
+  gap: 40px;
+  align-items: start;
+}
+.overview > div {
+  width: 50%;
+}
+.overview > div > h3 {
+  margin: 0;
+}
+.overview-img {
+  max-height: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.overview-img > img {
+  transform: translateY(-50px);
 }

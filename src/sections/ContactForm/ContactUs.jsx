@@ -44,7 +44,8 @@ const ContactUs = () => {
               Market Masjid Moth.
             </p>
             <p>
-              <strong> Office Contact Number : </strong> 8750209070
+              <strong> Office Contact Number : </strong> +91-8750209070
+              <strong> Landline Number : </strong> +91-1146572677
             </p>
           </div>
           <div className="contact-options">
@@ -56,8 +57,9 @@ const ContactUs = () => {
 
               <h6>+91 8750209070</h6>
               <h6>+91 8376018183</h6>
+              <h6>+91 1146572677</h6>
 
-              <a href="tel:8750209070" target="_blank" rel="noreferrer">
+              <a href="tel:+918750209070" target="_blank" rel="noreferrer">
                 Give Call
               </a>
             </article>

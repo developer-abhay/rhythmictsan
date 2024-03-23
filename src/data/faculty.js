@@ -180,4 +180,23 @@ export const facultyObject = [
       4: "Throughout his career, Mr. Tushar has made significant contributions to the music community as both a performer and a teacher. His versatility and skill as a percussionist have earned him recognition and acclaim, while his dedication to teaching has inspired countless students to discover the joy of percussion. Whether performing on stage or teaching in the classroom, Mr. Tushar's passion for rhythm and percussion shines through, inspiring others to explore the rhythmic world of music.",
     },
   },
+  {
+    id: 10,
+    name: "Miss Vandana",
+    title: "art & craft faculty",
+    img: "../../public/assets/images/faculty/vandana_arts.jpg",
+    bioImages: {
+      bioImg1: "/assets/images/about.jpg",
+      bioImg2: "",
+      bioImg3: "",
+      bioImg4: "",
+    },
+
+    desc: {
+      1: "Vandana brings a wealth of creativity and expertise to her role as the Arts and Craft faculty at Rhythmicstan. With a Diploma in Fine Art from Himanshu Art Institute, Patel Nagar, Vandana has honed her skills and deepened her understanding of various artistic techniques and mediums. With over four years of experience teaching fine arts, Vandana is passionate about nurturing creativity and fostering artistic expression in her students.",
+      2: "As an Arts and Craft instructor, Vandana specializes in a wide range of artistic techniques, including drawing, painting, sculpture, and more. Her versatile skill set allows her to guide students through diverse projects and mediums, encouraging exploration and experimentation in the artistic process.",
+      3: "Vandana believes in providing a supportive and encouraging environment where students feel empowered to unleash their creativity and explore their artistic potential. Through hands-on instruction and personalized guidance, she helps students develop their artistic skills, discover their unique style, and express themselves with confidence.",
+      4: "Throughout her career, Vandana has inspired countless students to discover the joy of art and unleash their imagination. Her dedication to fostering creativity and promoting artistic excellence has earned her recognition and acclaim among students and colleagues alike. Vandana's passion for the arts shines through in her teaching, inspiring students to embrace their creativity and embark on a lifelong artistic journey.",
+    },
+  },
 ];
