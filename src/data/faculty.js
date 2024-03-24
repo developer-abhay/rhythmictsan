@@ -184,7 +184,7 @@ export const facultyObject = [
     id: 10,
     name: "Miss Vandana",
     title: "art & craft faculty",
-    img: "../../public/assets/images/faculty/vandana_arts.jpg",
+    img: "/assets/images/faculty/vandana_arts.jpg",
     bioImages: {
       bioImg1: "/assets/images/about.jpg",
       bioImg2: "",
