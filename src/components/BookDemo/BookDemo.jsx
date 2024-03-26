@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./BookDemo.css";
+import SuccessModal from "./SuccessModal";
 
 const BookDemo = () => {
   const demoClass = useRef();
@@ -26,9 +27,18 @@ const BookDemo = () => {
         }
       );
     demoClassForm.reset();
+
+    const modal = document.querySelector(".success-modal");
+    modal.classList.add("demo-success");
+
+    setTimeout(function () {
+      modal.classList.remove("demo-success");
+    }, 1800);
   };
+
   return (
     <section className="book-demo-form" id="book-demo">
+      <SuccessModal />
       <div className="container">
         <h4>Book a Demo Class Now</h4>
         <form
@@ -59,7 +69,7 @@ const BookDemo = () => {
             type="submit"
             value="Send"
             id="book-demo-form-submit"
-            className="btn btn-primary "
+            className="btn btn-primary"
           >
             Book Now
           </button>

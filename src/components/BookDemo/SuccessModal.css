@@ -1,0 +1,20 @@
+.success-modal {
+  z-index: 1000;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background-color: rgb(73, 183, 73);
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px 0px rgb(46, 37, 37);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.2s all ease;
+}
+
+.demo-success {
+  top: 100px;
+  opacity: 1;
+}
