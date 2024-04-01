@@ -6,11 +6,17 @@
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .testimonials-container {
     display: grid;
+    gap: 40px 0px;
     justify-items: center;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .testimonials-container {
+    justify-items: center;
     grid-template-columns: 1fr;
   }
 }

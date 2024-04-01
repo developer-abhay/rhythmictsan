@@ -28,7 +28,7 @@ const DemoFaculty = () => {
             0: {
               slidesPerView: 1,
             },
-            600: {
+            700: {
               slidesPerView: 2,
               autoplay: {
                 delay: 500,

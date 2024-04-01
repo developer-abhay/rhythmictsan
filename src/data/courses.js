@@ -222,7 +222,7 @@ export const courseObject = [
     id: 7,
     name: "percussion",
     info: "Whether you're a beginner or have some experience, our course offers comprehensive instruction in a variety of percussion instruments, including dholak, tabla, cajon, drums, and more. Led by experienced instructors, you'll explore techniques, rhythms, and styles from around the world, honing your skills and unleashing your creativity.",
-    img: "/assets/images/courses/percussion.jpg",
+    img: "/assets/images/courses/percussion.webp",
     detail: {
       name: "Percussion Exploration",
       overview:
@@ -259,9 +259,136 @@ export const courseObject = [
         "Enroll now to embark on your rhythmic adventure with our Percussion Exploration course. Choose the plan that best fits your schedule and interests, and get ready to unleash your creativity and expressiveness through the power of percussion.",
     },
   },
-
   {
     id: 8,
+    name: "Tabla Mastery",
+    info: "Tailored for enthusiasts of Indian classical music and percussionists alike, this course offers a deep dive into the art of tabla playing. Explore the intricate techniques, vibrant rhythms, and cultural richness of this traditional percussion instrument as you progress through the beginner, intermediate, and advanced levels.",
+    img: "/assets/images/courses/tabla.jpg",
+    detail: {
+      name: "Introduction to Tabla - Basic Course",
+      overview:
+        "This course is designed to introduce students to the fundamentals of playing the tabla, a traditional Indian percussion instrument. Over the course of three months, students will learn basic techniques, rhythms, and compositions essential for playing the tabla. Emphasis will be placed on developing proper hand positioning, stroke techniques, and rhythm sense.",
+      curriculum: {
+        "Month 1 : Introduction to Tabla Basics": [
+          "Week 1-2 Introduction to the tabla and its parts (dayan and bayan).",
+          "Understanding the tuning and maintenance of the tabla.",
+          "Basic hand positioning and posture for playing the tabla.",
+          "Week 3-4: Learning the basic strokes (na) and techniques (bols).",
+          "Practice exercises for developing clarity and control in strokes.",
+          "Introduction to the concept of laya (tempo) and dynamics.",
+        ],
+        "Month 2: Exploring Rhythmic Patterns and Taals": [
+          "Week 5-6: Introduction to commonly used rhythmic patterns (taals).",
+          "Focus on taal Teentaal (16 beats) and Dhadra (6 beats).",
+          "Practice playing theka (basic pattern) and variations within each taal.",
+          "Week 7-8: Understanding tihai (repetitive phrase) and kaida (theme-based composition).",
+          "Learning simple tihai and kaida compositions in Teentaal.",
+          "Emphasis on maintaining consistent tempo and clarity in playing.",
+        ],
+        "Month 3: Application and Performance": [
+          "Week 9-10: Solo and Group Practice Sessions",
+          " Application of learned techniques and compositions in solo and group settings.",
+          "Peer feedback and guidance from the instructor for improvement.",
+          " Week 11-12: Performance Preparation and Review",
+          "Preparation for a final performance showcasing learned compositions and skills.",
+          "Review of course material and individual progress assessments.",
+          "Discussion on further study and practice avenues for continued development.",
+        ],
+      },
+      instructor:
+        "Our tabla instructors are seasoned percussionists and performers with years of experience in teaching and performing tabla. They are dedicated to providing personalized instruction tailored to each student's needs, goals, and learning pace, creating a supportive and encouraging environment where students can thrive and grow as tabla players.",
+      features:
+        "Our Tabla Mastery course offers a comprehensive assessment framework to track students' progress and proficiency in tabla playing. Assessment criteria include attendance and active participation in class and practice sessions, progress in mastering basic strokes, techniques, and compositions, as well as performance evaluations in solo and group settings to demonstrate proficiency in rhythm and clarity of strokes. Additionally, a final performance evaluation based on the execution of learned compositions and techniques provides a comprehensive overview of students' tabla skills. To support students' learning journey, we provide tabla sets for practice (dayan and bayan), instructional books, videos, and online resources for supplementary learning, audio recordings of traditional compositions and performances for reference, and guidance and support from the instructor through individual feedback and practice sessions. This 3-month course outline ensures a structured progression for beginners, allowing them to develop foundational skills gradually and advance to more complex rhythms and compositions.",
+      prerequisites:
+        "No prior tabla experience is required for beginners. Intermediate and advanced levels are suitable for tabla players with some prior training or experience. However, students of all levels are welcome to join our classes and explore the rich and diverse world of tabla playing.",
+      enrollment:
+        "Enroll now to embark on your rhythmic journey with Tabla Rhythm Revolution. Choose the plan that best fits your schedule and goals, and get ready to immerse yourself in the timeless tradition and boundless creativity of tabla playing.",
+    },
+  },
+  // {
+  //   id: 9,
+  //   name: "Dholak Course",
+  //   info: "Designed for enthusiasts of diverse musical traditions, this course offers a fusion of traditional dholak rhythms and contemporary styles. Dive into the rich heritage of the dholak as you journey through our curriculum. Our course provides the perfect blend of tradition and innovation to elevate your rhythm and ignite your musical creativity.",
+  //   img: "/assets/images/courses/",
+  //   detail: {
+  //     name: "Dholak Dynamics: Mastering the Rhythms",
+  //     overview:
+  //       "Welcome to Dholak Dynamics: Mastering the Rhythms, an immersive exploration of the vibrant world of dholak playing. This course is meticulously crafted to introduce both beginners and experienced percussionists to the rich traditions and rhythmic intricacies of the dholak. Through a structured curriculum that covers foundational techniques, traditional compositions, and contemporary applications, students will embark on a rhythmic journey that celebrates the diversity and vitality of Indian percussion. Join us as we unlock the rhythmic potential of the dholak and discover the joy of creating infectious grooves and captivating rhythms.",
+  //     curriculum: {
+  //       "Foundations of Dholak Playing:": [
+  //         "Introduction to dholak anatomy, including the dagga (bass drum) and tabla (treble drum), and their respective strokes and sounds.",
+  //         "Mastery of basic hand positions, finger techniques, and bols (syllables) used in dholak playing.",
+  //         "Development of rhythmic understanding through the study of common dholak rhythms and compositions.",
+  //       ],
+  //       "Traditional Dholak Rhythms and Compositions:": [
+  //         "Exploration of traditional folk and classical dholak rhythms, including bhangra, dhamal, and qawwali rhythms.",
+  //         "Study of iconic dholak compositions, such as relas, dhadra, and kaharva, with an emphasis on proper execution, interpretation, and improvisation.",
+  //         "Introduction to the concept of layakari (rhythmic modulation) and its application in dholak playing.",
+  //       ],
+  //       "Contemporary Fusion and Collaborative Projects:": [
+  //         "Integration of dholak into contemporary musical contexts, including fusion, folk fusion, and experimental genres.",
+  //         "Collaboration with other instrumentalists and musicians to create innovative compositions and performances that blend dholak with other instruments and styles.",
+  //         "Exploration of digital technology and electronic music production techniques for dholak players.",
+  //       ],
+  //       "Performance and Presentation Skills:": [
+  //         "Opportunities to perform solo dholak compositions and accompany vocalists, instrumentalists, and dancers in live performance settings.",
+  //         "Development of stage presence, confidence, and communication skills through regular performance opportunities and public recitals.",
+  //         "Guidance on concert etiquette, dholak tuning, and instrument maintenance for aspiring dholak performers.",
+  //       ],
+  //     },
+  //     instructor:
+  //       "Our dholak instructors are seasoned percussionists and performers with years of experience in teaching and performing dholak. They are dedicated to providing personalized instruction tailored to each student's needs, goals, and learning pace, creating a supportive and encouraging environment where students can thrive and grow as dholak players.",
+  //     features:
+  //       "Embark on a rhythmic journey with our Dholak Dynamics course, where we offer a range of dynamic features to enrich your learning experience. Engaging and interactive classes are conducted twice a week, allowing flexibility to accommodate diverse schedules and learning preferences. Access a comprehensive library of dholak resources, including instructional materials, audio recordings, and video tutorials, to support your practice and deepen your understanding of dholak playing. Immerse yourself in the world of dholak through participation in workshops, masterclasses, and guest lectures by renowned dholak maestros and guest artists, gaining valuable insights and refining your skills. Join our vibrant dholak community, where you'll find opportunities for collaboration, networking, and ongoing support, fostering growth and camaraderie among fellow enthusiasts.",
+  //     prerequisites:
+  //       "No prior dholak experience is required for beginners. Intermediate and advanced levels are suitable for dholak players with some prior training or experience. However, students of all levels are welcome to join our classes and explore the rich and diverse world of dholak playing.",
+  //     enrollment:
+  //       "Enroll now to embark on your rhythmic journey with Dholak Dynamics: Mastering the Rhythms. Choose the plan that best fits your schedule and goals, and get ready to immerse yourself in the timeless tradition and boundless creativity of dholak playing.",
+  //   },
+  // },
+  {
+    id: 10,
+    name: "Cajon Rhythms",
+    info: "Tailored for enthusiasts of percussion and world music, this course delves into the versatile and expressive realm of the cajon. Discover the intricate techniques and cultural influences that shape the art of cajon playing. Our course offers an immersive experience to unlock the rhythmic potential of cajon and infuse your music with vibrant energy.",
+    img: "/assets/images/courses/cajon.jpg",
+    detail: {
+      name: "Cajon Rhythms",
+      overview:
+        "Our Cajon Rhythms Unleashed course is designed to take you on a rhythmic journey through the diverse world of cajon playing. Whether you're a beginner looking to master the basics or an experienced percussionist seeking to expand your repertoire, this course offers a comprehensive exploration of cajon techniques, rhythms, and musical styles. Through a combination of hands-on instruction, guided practice, and performance opportunities, you'll develop the skills and confidence to unlock the full potential of the cajon and express yourself rhythmically with flair and finesse.",
+      curriculum: {
+        "Foundations of Cajon Playing:": [
+          "Introduction to cajon anatomy, positioning, and basic playing techniques.",
+          "Mastery of essential cajon sounds, including bass tones, slap tones, and ghost notes.",
+          "Development of hand coordination, dynamics, and rhythmic accuracy through structured exercises and drills.",
+        ],
+        "Exploration of Rhythmic Styles:": [
+          "Study of traditional and contemporary cajon rhythms from around the world, including flamenco, Afro-Cuban, Latin, funk, and pop.",
+          "Introduction to syncopated rhythms, polyrhythms, and groove patterns characteristic of different musical genres.",
+          "Exploration of improvisational techniques and creative approaches to cajon playing.",
+        ],
+        "Performance and Ensemble Playing:": [
+          "Opportunities to participate in cajon ensembles and collaborative music-making projects.",
+          "Development of listening skills, ensemble communication, and rhythmic synchronization.",
+          "Performance of cajon accompaniments for various musical contexts, including solo performances, jam sessions, and ensemble settings.",
+        ],
+        "Creative Expression and Composition:": [
+          "Exploration of creative approaches to cajon playing, including composition and arrangement of cajon parts for original music.",
+          "Development of expressive techniques, such as dynamics, accents, and embellishments, to add depth and nuance to your playing.",
+          "Collaboration with peers to create original cajon compositions and arrangements.",
+        ],
+      },
+      instructor:
+        "Our experienced cajon instructors are seasoned percussionists with a passion for teaching and performing. They bring a wealth of knowledge and expertise to each lesson, providing personalized instruction tailored to each student's goals and abilities. With a focus on fostering a supportive and encouraging learning environment, our instructors are committed to helping you achieve your full potential as a cajon player and musician.",
+      features:
+        "Engaging and dynamic classes are conducted twice a week, accommodating busy schedules. With flexible enrollment options, including 3-month, 6-month, or 1-year plans, you can progress at your own pace. Gain access to a wide range of resources, including instructional materials, play-along tracks, and performance opportunities, to support your cajon journey. Additionally, membership in our vibrant cajon community provides opportunities for collaboration, networking, and ongoing support.",
+      prerequisites:
+        "No prior cajon experience is required. This course is open to students of all levels, from beginners to advanced players. However, a basic understanding of rhythm and music fundamentals is beneficial.",
+      enrollment:
+        "Enroll now to embark on your rhythmic adventure with our Cajon Rhythms Unleashed course. Choose the plan that best fits your schedule and goals, and get ready to unleash your creativity, groove, and passion for percussion with the versatile and expressive cajon.",
+    },
+  },
+  {
+    id: 11,
     name: "ukelele",
     info: "Learn to strum cheerful melodies and master unique chord progressions as you explore the delightful sounds of this versatile instrument, guided by experienced instructors passionate about sharing the joy and versatility of ukulele playing. Discover the rich heritage and cultural significance behind the ukulele while honing your skills and love for music.",
     img: "/assets/images/courses/ukelele.jpg",
@@ -304,7 +431,7 @@ export const courseObject = [
     },
   },
   {
-    id: 9,
+    id: 12,
     name: "electric guitar",
     info: "Ignite your passion for rock, blues, and beyond with our electric guitar beginner to advanced course. Dive into power chords, blistering solos, and dynamic techniques as you uncover the electrifying potential of this iconic instrument, guided by experienced professionals passionate about shaping your musical journey.",
     img: "/assets/images/courses/electric_guitar.jpg",
@@ -339,9 +466,8 @@ export const courseObject = [
         "Enroll now to ignite your passion for music and master the electric guitar with our Electric Guitar Mastery course. Choose the plan that best fits your schedule and goals, and get ready to rock out, riff, and solo your way to guitar greatness.",
     },
   },
-
   {
-    id: 10,
+    id: 13,
     name: "grand piano",
     info: "Embark on a transformative musical journey with our grand piano course. From classical masterpieces to contemporary compositions, our expert instructors will guide you through the intricacies of this majestic instrument. Dive deep into technique, expression, and repertoire, cultivating your musicality and finesse. Join us to elevate your playing to new heights.",
     img: "/assets/images/courses/piano.jpeg",
@@ -378,7 +504,7 @@ export const courseObject = [
     },
   },
   {
-    id: 11,
+    id: 14,
     name: "bass guitar",
     info: "Immerse yourself in the rhythmic heartbeat of music with our bass guitar course. From crafting solid grooves to navigating intricate bass lines, our expert instructors will guide you through every step, empowering you to become the indispensable foundation of any musical ensemble. Gain proficiency in various playing styles and techniques.",
     img: "/assets/images/courses/bass_guitar.jpg",
@@ -414,7 +540,7 @@ export const courseObject = [
     },
   },
   {
-    id: 12,
+    id: 15,
     name: "art & craft",
     info: "Unlock your creativity with our captivating art and craft course. Dive into a world of colors, textures, and imagination as our expert instructors guide you through exciting projects and techniques. Whether you're a novice or seasoned artist, join us to explore your artistic potential and bring your visions to life! Enroll Now and leave the rest on your creativity.",
     img: "/assets/images/courses/art.jpg",

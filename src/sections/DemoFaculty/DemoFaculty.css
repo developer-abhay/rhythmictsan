@@ -1,6 +1,5 @@
 .demo-faculty-container {
-  padding-left: 1.5% !important;
-  padding-bottom: 0px !important;
+  padding-left: 4.5% !important;
 }
 .demo-faculty-container > .mySwiper {
   padding: 20px 0px;
@@ -12,12 +11,15 @@
 
 @media screen and (max-width: 1024px) {
   .demo-faculty-container {
-    padding-left: 1% !important;
+    padding-left: 0 !important;
+  }
+  .demo-faculty-container > .mySwiper {
+    width: 640px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .demo-faculty-container {
-    padding-left: 5% !important;
+@media screen and (max-width: 700px) {
+  .demo-faculty-container > .mySwiper {
+    width: 300px;
   }
 }

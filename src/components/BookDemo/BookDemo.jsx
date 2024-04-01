@@ -1,44 +1,53 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./BookDemo.css";
-import SuccessModal from "./SuccessModal";
+import DemoModal from "./DemoModal";
 
 const BookDemo = () => {
   const demoClass = useRef();
+  const [status, setStatus] = useState("success");
 
   const demoClassMail = (e) => {
     e.preventDefault();
+    const formData = new FormData(e.target);
+    const formProps = Object.fromEntries(formData);
 
-    const demoClassForm = document.querySelector("#book-demo-form   ");
+    const demoClassForm = document.querySelector("#book-demo-form");
 
-    emailjs
-      .sendForm(
-        "rhythmicstan_query_form",
-        "book_demo_template",
-        demoClass.current,
-        "lh_DXYwT2CXz81fZe"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    demoClassForm.reset();
+    if (formProps.user_name == "" || formProps.user_mobile == "") {
+      setStatus("error");
+    } else {
+      setStatus("success");
+      emailjs
+        .sendForm(
+          "rhythmicstan_query_form",
+          "book_demo_template",
+          demoClass.current,
+          "lh_DXYwT2CXz81fZe"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      demoClassForm.reset();
+    }
 
-    const modal = document.querySelector(".success-modal");
-    modal.classList.add("demo-success");
-
-    setTimeout(function () {
-      modal.classList.remove("demo-success");
-    }, 1800);
+    setTimeout(() => {
+      const modal = document.querySelector(".demo-modal");
+      modal.classList.add("demo-modal-visible");
+      setTimeout(() => {
+        modal.classList.remove("demo-modal-visible");
+      }, 3500);
+    }, 0); // Delay execution to ensure status update takes effect
   };
 
   return (
     <section className="book-demo-form" id="book-demo">
-      <SuccessModal />
+      <DemoModal status={status} />
       <div className="container">
         <h4>Book a Demo Class Now</h4>
         <form

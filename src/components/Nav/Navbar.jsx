@@ -11,6 +11,8 @@ const Navbar = () => {
     console.log(navList.classList);
   };
 
+  //Book demo btn
+
   return (
     <header className="header-sticky header">
       <nav>
@@ -18,17 +20,21 @@ const Navbar = () => {
           <img src={Logo} alt="Logo" />
         </a>
 
-        <RxHamburgerMenu onClick={showNav} className="hamburger-icon" />
         <ul className="nav-list">
           <ListItem title="home" url="/" />
           <ListItem title="about" url="/about" />
           <ListItem title="courses" url="/courses" />
           <ListItem title="faculty" url="/faculty" />
+          {/* <ListItem title="blogs" url="/blogs" /> */}
           <ListItem title="contact" url="/contact" />
-          <a href="#book-demo-form" className="btn btn-primary">
-            Book a Demo
-          </a>
+          <div>
+            <a href="#book-demo-form" className="btn btn-primary">
+              Book a Demo
+            </a>
+          </div>
         </ul>
+
+        <RxHamburgerMenu onClick={showNav} className="hamburger-icon" />
       </nav>
     </header>
   );

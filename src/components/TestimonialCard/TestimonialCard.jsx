@@ -4,9 +4,11 @@ import "./TestimonialCard.css";
 const TestimonialCard = ({ name, title, feedback, img }) => {
   return (
     <div className="testimonial card-hover">
-      <RiDoubleQuotesL className="testimonial-icon" />
-      <p>{feedback}</p>
-      <div>
+      <div className="testimonial-text">
+        <RiDoubleQuotesL className="testimonial-icon" />
+        <p>{feedback}</p>
+      </div>
+      <div className="testimonial-user">
         <div className="user-image">
           <img src={img} alt="" />
         </div>
