@@ -19,9 +19,15 @@ const Courses = () => {
           course.name.includes(
             newFilters.length == 1
               ? filter
+              : newFilters.length == 2
+              ? course.name.includes(newFilters[0])
+                ? newFilters[0]
+                : newFilters[1]
+              : course.name.includes(newFilters[0])
+              ? newFilters[0]
               : course.name.includes(newFilters[1])
               ? newFilters[1]
-              : newFilters[0]
+              : newFilters[2]
           )
         )
       );

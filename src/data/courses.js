@@ -261,7 +261,7 @@ export const courseObject = [
   },
   {
     id: 8,
-    name: "Tabla Mastery",
+    name: "tabla mastery",
     info: "Tailored for enthusiasts of Indian classical music and percussionists alike, this course offers a deep dive into the art of tabla playing. Explore the intricate techniques, vibrant rhythms, and cultural richness of this traditional percussion instrument as you progress through the beginner, intermediate, and advanced levels.",
     img: "/assets/images/courses/tabla.jpg",
     detail: {
@@ -348,7 +348,7 @@ export const courseObject = [
   // },
   {
     id: 10,
-    name: "Cajon Rhythms",
+    name: "cajon rhythms",
     info: "Tailored for enthusiasts of percussion and world music, this course delves into the versatile and expressive realm of the cajon. Discover the intricate techniques and cultural influences that shape the art of cajon playing. Our course offers an immersive experience to unlock the rhythmic potential of cajon and infuse your music with vibrant energy.",
     img: "/assets/images/courses/cajon.jpg",
     detail: {
