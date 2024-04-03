@@ -5,6 +5,28 @@
   gap: 50px;
 }
 
+.youtube-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.youtube-container iframe {
+  width: 50%;
+}
+.youtube-container div {
+  width: 50%;
+}
+.youtube-container div h1 {
+  font-size: 50px;
+}
+.youtube-container div p {
+  font-size: 16px;
+  color: var(--color-light);
+}
 @media screen and (max-width: 600px) {
   .why-us-container {
     gap: 0px !important;

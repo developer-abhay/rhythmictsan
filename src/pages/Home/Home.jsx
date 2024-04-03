@@ -16,6 +16,31 @@ const Home = () => (
   <div className="home-page">
     <Hero />
     <Slider />
+    <section className="container youtube-container">
+      <div>
+        <h1>Music Festamania</h1>
+        <p>
+          Step into the world of music and celebration with a glimpse of our
+          unforgettable annual event. Watch as our talented students take center
+          stage, captivating audiences with their passion and skill. From
+          mesmerizing performances to heartwarming moments, our annual event is
+          a testament to the dedication and talent of our music academy
+          community. Get ready to be inspired and entertained as you witness the
+          magic of music come to life. Press play and join us on a journey of
+          melody, rhythm, and joy!
+        </p>
+      </div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/DDjOuDQJ3g4?si=DmgcccVMdisluOU1&rel=0"
+        title="Festamnaiz"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      />
+    </section>
     <AboutUs />
     <DemoCourses />
     <DemoFaculty />
