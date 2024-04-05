@@ -1,0 +1,136 @@
+.service {
+  margin-top: 80px !important;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.service > h2 {
+  margin-bottom: 0px;
+}
+
+.first-service,
+.first-service-reverse {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 4.5rem 0rem;
+  height: fit-content;
+}
+.first-service-reverse {
+  flex-direction: row-reverse;
+}
+
+.service-text {
+  width: 50%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.service-text h2 {
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.service-text button {
+  margin-top: 1rem;
+}
+
+.ytube-video {
+  width: 50%;
+  aspect-ratio: 16/9;
+  padding: 25px 0;
+}
+
+.images {
+  position: relative;
+  width: 50%;
+  flex: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  z-index: 1;
+}
+
+.images div {
+  width: 49%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px, rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.images img {
+  height: 350px;
+  transition: 0.2s all ease;
+}
+
+.images img:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.images div:nth-child(2) {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .service {
+    margin: 4rem 2rem;
+  }
+  .first-service,
+  .first-service-reverse {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    gap: 20px;
+  }
+  .service-text {
+    width: 100%;
+  }
+  .images {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .images div {
+    height: fit-content;
+  }
+  .images img {
+    height: 250px;
+  }
+  .ytube-video {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .service {
+    text-align: center;
+  }
+  .first-service,
+  .first-service-reverse {
+    margin-top: 2rem;
+  }
+  .service-text {
+    text-align: left;
+  }
+  .service-text p {
+    font-size: 12px;
+  }
+  .service-text h2 {
+    padding-bottom: 0.5rem;
+    font-size: 24px;
+  }
+
+  .images {
+    margin-bottom: 0px;
+  }
+  .images img {
+    height: 150px;
+  }
+}

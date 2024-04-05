@@ -25,6 +25,7 @@ const Navbar = () => {
           <ListItem title="about" url="/about" />
           <ListItem title="courses" url="/courses" />
           <ListItem title="faculty" url="/faculty" />
+          <ListItem title="services" url="/services" />
           {/* <ListItem title="blogs" url="/blogs" /> */}
           <ListItem title="contact" url="/contact" />
           <div>

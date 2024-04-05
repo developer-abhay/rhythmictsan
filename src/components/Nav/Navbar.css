@@ -49,8 +49,8 @@ nav {
   color: var(--color-primary);
 }
 
-.nav-list > .btn {
-  margin-left: 20px;
+.nav-list .btn {
+  margin-left: 30px;
   font-size: 14px;
   padding: 10px;
 }
@@ -107,6 +107,7 @@ nav {
     background-color: rgb(238, 238, 238);
   }
   nav .btn {
+    margin-left: 0 !important;
     margin-bottom: 20px;
   }
 

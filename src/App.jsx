@@ -15,6 +15,7 @@ import Support from "./pages/Support/Support";
 import { courseObject } from "./data/courses";
 import CourseDetail from "./components/CourseDetail/CourseDetail";
 import Blogs from "./pages/Blogs/Blogs";
+import Services from "./pages/Services/Services";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/faculty" element={<Faculty />} />
-          {/* <Route path="/blogs" element={<Blogs />} /> */}
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<Terms />} />
