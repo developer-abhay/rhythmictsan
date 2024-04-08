@@ -16,6 +16,7 @@ import { courseObject } from "./data/courses";
 import CourseDetail from "./components/CourseDetail/CourseDetail";
 import Blogs from "./pages/Blogs/Blogs";
 import Services from "./pages/Services/Services";
+import BlogDetail from "./pages/Blogs/BlogDetail";
 
 const App = () => {
   return (
@@ -23,11 +24,13 @@ const App = () => {
       <main className="flex flex-col justify-center">
         <Navbar />
         <Routes>
+          <Route path="*" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogDetail" element={<BlogDetail />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />

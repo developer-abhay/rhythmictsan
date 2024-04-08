@@ -1,12 +1,22 @@
 .blog-card {
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 50px;
 }
 
 .blog-img {
-  width: 65%;
+  width: 60%;
+  overflow: hidden;
 }
+.blog-img img {
+  aspect-ratio: 16/9;
+  transition: 0.4s all ease;
+}
+
+.blog-img img:hover {
+  scale: 1.05;
+}
+
 .blog-details {
   width: 35%;
   display: flex;
@@ -29,6 +39,7 @@
   line-height: 40px;
   font-size: 28px;
   letter-spacing: 0.5px;
+  font-weight: 600;
 }
 
 .blog-description {
@@ -41,4 +52,95 @@
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-card {
+    gap: 20px;
+  }
+
+  .blog-header {
+    font-size: 12px;
+  }
+
+  .blog-header span {
+    font-size: 12px;
+    color: var(--color-light);
+  }
+
+  .blog-title {
+    line-height: 30px;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+  }
+
+  .blog-description {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+  }
+
+  .blog-card h5 {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog-header {
+    font-size: 11px;
+  }
+
+  .blog-header span {
+    font-size: 11px;
+  }
+
+  .blog-title {
+    font-size: 20px;
+  }
+
+  .blog-description {
+    font-size: 14px;
+  }
+
+  .blog-card h5 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .blog-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .blog-img {
+    width: 100%;
+  }
+
+  .blog-details {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .blog-header {
+    font-size: 14px;
+  }
+
+  .blog-header span {
+    font-size: 14px;
+  }
+
+  .blog-title {
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+  .blog-description {
+    font-size: 14px;
+  }
+
+  .blog-card h5 {
+    font-size: 14px;
+  }
 }

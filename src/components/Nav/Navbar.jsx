@@ -8,7 +8,6 @@ const Navbar = () => {
   const showNav = () => {
     const navList = document.querySelector(".nav-list");
     navList.classList.toggle("display-flex");
-    console.log(navList.classList);
   };
 
   //Book demo btn
@@ -20,13 +19,13 @@ const Navbar = () => {
           <img src={Logo} alt="Logo" />
         </a>
 
-        <ul className="nav-list">
+        <ul className="nav-list" onClick={showNav}>
           <ListItem title="home" url="/" />
           <ListItem title="about" url="/about" />
           <ListItem title="courses" url="/courses" />
           <ListItem title="faculty" url="/faculty" />
           <ListItem title="services" url="/services" />
-          {/* <ListItem title="blogs" url="/blogs" /> */}
+          <ListItem title="blogs" url="/blogs" />
           <ListItem title="contact" url="/contact" />
           <div>
             <a href="#book-demo-form" className="btn btn-primary">

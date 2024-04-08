@@ -1,0 +1,37 @@
+.blog-detail {
+  margin-top: 80px;
+}
+.blog-detail-container {
+  align-items: start;
+  justify-content: start;
+  /* width: 60%; */
+  /* margin-left: 80px; */
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.blog-detail-container > h2 {
+  padding-top: 20px;
+  margin: 0 !important;
+}
+.blog-detail-container > .header {
+  /* background: aqua; */
+  margin-bottom: 40px;
+}
+
+.blog-detail-container > .content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-detail-container {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 0px;
+  }
+}
